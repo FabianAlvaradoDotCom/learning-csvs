@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="150"
+   height="57"
+   viewBox="0 0 39.687499 15.081251"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="installerHeader.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-filename="C:\Users\Ouroboros\Desktop\Bullseye_Separation\bullseye_capturing\build\installerHeader.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4.3789474"
+     inkscape:cx="70.117245"
+     inkscape:cy="63.623668"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="2560"
+     inkscape:window-height="1057"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     objecttolerance="5"
+     gridtolerance="10"
+     guidetolerance="5"
+     inkscape:snap-perpendicular="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:snap-page="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:pagecheckerboard="true"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer1"
+     transform="translate(-91.824699,-79.782927)"
+     style="display:inline">
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.11791337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.39215686;paint-order:stroke fill markers"
+       d="m 95.79345,83.588258 v 7.470588 h 7.47059 v -7.470588 z m 1.120587,1.120588 h 5.229413 v 5.229411 h -5.229413 z"
+       id="path825" />
+    <rect
+       y="86.202957"
+       x="98.408157"
+       height="2.2411761"
+       width="2.2411761"
+       id="rect1496"
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.0353739;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.39215686;paint-order:stroke fill markers" />
+    <text
+       transform="scale(1.0034072,0.99660437)"
+       id="text820"
+       y="88.93663"
+       x="104.51159"
+       style="font-style:normal;font-weight:normal;font-size:4.87242699px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.12181067"
+       xml:space="preserve"><tspan
+         id="tspan822"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Orbitron;-inkscape-font-specification:Orbitron;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.12181067"
+         y="88.93663"
+         x="104.51159"
+         sodipodi:role="line">bullseye</tspan></text>
+  </g>
+  <g
+     id="g889"
+     transform="translate(2.1608619e-6,-24.606249)" />
+</svg>

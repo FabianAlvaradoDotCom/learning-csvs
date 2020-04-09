@@ -1,0 +1,5 @@
+-Page with no 3D, only large data amount graph
+-Range selector on table component
+-Schedule recurring report
+-Optimize sensor records
+-Leave heavylifting to webassembly
