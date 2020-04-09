@@ -1,3 +1,4 @@
+// Added comments
 import React, { useEffect, useLayoutEffect, useState, useContext, useRef } from "react";
 import { Redirect } from 'react-router-dom';
 
