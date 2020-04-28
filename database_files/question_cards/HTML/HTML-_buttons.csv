@@ -1,0 +1,6 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Forms,"In HTML we can create buttons with 2 different elements, button and input. Those 2 can have a ""type"" attribute with 3 different values, what are the type options?","1. submit<br/>
+2. reset<br/>
+3. anonymous (type=""button"")","1.
+2.
+3.",3,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/The_native_form_widgets,,,,,,,

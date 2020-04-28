@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+ReactTDD,Excercise,"What is the command to install ""<b>Check Prop Types</b>"" package.",npm i -D check-prop-types,,1,code-type,,,,https://www.udemy.com/course/react-testing-with-jest-and-enzyme/learn/lecture/10532572?start=78,,,,,,,,,,,,,

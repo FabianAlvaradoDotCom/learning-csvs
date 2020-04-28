@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+CSS,Basics,What happens when there is a property or value that CSS does not know?,The property will be ignore and the parser will move to the next line of code.,,1,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works,,,,,,,

@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+Node,Node Basics,What is the name of the argument variables sent to the process through the console? Please type how to access it: object_name.property,process.argv,…,1,text-type,Wrong,,,,,,,

@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Forms,Where do you set the default value for a textarea element?,"Within the opening and closing tags, not in the value attribute.",,3,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Additional_form_controls,,,,,,,

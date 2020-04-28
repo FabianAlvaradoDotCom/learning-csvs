@@ -1,0 +1,37 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+Javascript,ES6 String Templates,"There is a technique for avoiding issues when trying to use <code>this</code> in functions nested within methods (object functions), like the example below. Write the ES6 alternative, that is elegant and easier to understand.
+<pre>const obj = {
+	name: ""uno"",
+	func : function (){
+		let self = this;
+		let exec = function(){
+			console.log(self.name);
+		}
+		exec();
+	}
+}
+
+obj.func();</pre>","const obj = {
+	name: ""uno"",
+	func : function (){
+		let exec = <b>() =&gt; {</b>
+			console.log(this.name);
+		}
+	exec();
+	<b>}</b>
+}
+
+obj.func();
+
+",11,code-type,"const obj = {
+	name: ""uno"",
+	func : function (){
+		let self = this;
+		let exec = function(){
+			console.log(self.name);
+		}
+		exec();
+	}
+}
+
+obj.func();",Wrong,,https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/6034314?start=215,,,,,,,,,,,,,

@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+Node,Node Basics,Execute in the terminal the code to run in Node the file index.js and pass the flags name : John Doe and age:40,"node index --name ""John Doe"" --age 40",,1,code-type,Wrong,,,,,,,

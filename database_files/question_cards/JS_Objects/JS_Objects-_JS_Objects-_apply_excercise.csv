@@ -1,0 +1,35 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Objects,"Bind, Call and Apply","*Use arrow functions mainly, except by situations that require function keyword.<br/>
+Create a simple function that executes but does not copy the function below, pointing to person properties using ""this"", not the exact access.<br/>
+
+<i>""Name: John, Age: 40""</i>
+<pre>let person = {
+  first_name: ""John"",
+  last_name: ""Doe"",
+  age: 40
+}
+
+const printPersonCard = function(){
+  console.log(`Name: ${this.first_name}, Age: ${this.age}`);
+}
+
+...</pre>","let person = {
+  first_name: ""John"",
+  last_name: ""Doe"",
+  age: 40
+}
+
+const printPersonCard = function(){
+  console.log(`Name: ${this.first_name}, Age: ${this.age}`);
+}
+
+printPersonCard.call(person);",10,code-type,"let person = {
+  first_name: ""John"",
+  last_name: ""Doe"",
+  age: 40
+}
+
+const printPersonCard = function(){
+  console.log(`Name: ${this.first_name}, Age: ${this.age}`);
+}
+...",Error,,https://www.udemy.com/course/understand-javascript/learn/lecture/2237530?start=480,,,,,

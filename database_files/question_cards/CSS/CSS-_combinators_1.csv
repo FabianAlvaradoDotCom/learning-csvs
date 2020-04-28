@@ -1,0 +1,5 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+CSS,Basics,"What is the name of a selector that selects all ""x"" elements inside ""y"" elements:
+<pre>y x {
+  color: red;
+}</pre>",Descendant combinator,,1,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators,,,,,,,

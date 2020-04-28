@@ -1,0 +1,15 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Text,Write the example of a good font sizing practice.,"Set the base font-size of the document (html) to 10px, so that then the maths is a lot easier to work out, rem values are then the base font size divided by 10:<br/><br/>
+<pre>html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  color: red;
+  font-family: Helvetica, Arial, sans-serif;
+}</pre>",,15,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals,,,,,,,,,,,,,

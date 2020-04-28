@@ -1,0 +1,17 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,reference_time4,,reference_time5,,reference_time6,
+Javascript,ES6 Function Operators,"If we have the function below, what do we need to change in the code so the function is able to treat the first argument as a separate from the <b>rest</b>? Take into account that multiply could be a <code>operation</code> parameter.
+<pre>const getParams = (...params) => {
+	...
+}
+
+getParams('multiply', 2, 6, 3);
+</pre>
+","const getParams = (<b>operation</b>, ...params) => {
+	...
+}
+
+getParams('multiply', 2, 6, 3);",,6,code-type,"const getParams = (...params) => {
+	...
+}
+
+getParams('multiply', 2, 6, 3);",,,https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/6034316?start=752,,,,,,,,,,,,

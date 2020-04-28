@@ -1,0 +1,11 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Objects,By Value vs By Reference,"We learned that objects are passed by reference, and even when they are passed as arguments to a function, they keep pointing to the same object in memory, so, what would the below print?
+<pre>let my_object = {prop_one: ""original prop""};
+
+let someFunction = function(a){
+  a.prop_one = ""updated property"";
+}
+
+someFunction(my_object);
+
+console.log(my_object);</pre>",{ prop_one: 'updated property' },4,code-type,?,Wrong,,https://www.udemy.com/course/understand-javascript/learn/lecture/2322828,10:46,,,,

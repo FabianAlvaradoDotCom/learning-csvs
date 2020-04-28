@@ -1,0 +1,8 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+WebComps,Basics,What are the benefits of using native Web Components vs Libraries?<br> <br> <br> <br> ,"1. Give style encapsulation through creation of sub-DOM tree which prevents leaking.
+2. No dependencies.
+3. Can be used with frameworks or libraries.
+4. longer life components-",5,text-type,"1.
+2.
+3.
+4.",,,https://app.pluralsight.com/player?course=vanilla-web-components-practical-guide&author=leon-revill&name=vanilla-web-components-practical-guide-m1&clip=0&mode=live,All video,,,,

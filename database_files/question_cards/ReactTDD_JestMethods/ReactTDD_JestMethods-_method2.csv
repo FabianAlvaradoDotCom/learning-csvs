@@ -1,0 +1,4 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+ReactTDD_JestMethods,Jest Methods,"What is the method for comparing 2 objects to be <b>equivalent</b>?<br/>
+Remember that as objects are referenced values, even when they are identical, if they do not point to the same object in memory, just comparing with <b>===</b> sign, will return <code>false</code>.<br/>Compare <code>object1</code> vs <code>object2</code>.
+<pre>expect(object1)<b>...</b>();</pre>","expect(<b class=""blue"">object1</b>)<b>.toEqual</b>(<b class=""blue"">object2</b>);",,1,code-type,expect(object1)...();,,,,,,,,,,,,,,,,

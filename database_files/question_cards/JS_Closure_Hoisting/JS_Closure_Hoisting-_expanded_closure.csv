@@ -1,0 +1,64 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+JS_Closure_Hoisting,Closures,"*Use arrow functions when possible.<br/>
+*Use let and const when possible.<br/>
+*Use the reveal pattern.<br/><br/>
+
+Create a closure that has these characteristics:<br/>
+1. The main function will have a name ""clientAccount"".<br/>
+2. The main account will receive an one-time initial_deposit, the amount depends on the client.<br/>
+3. The total amount of money will be kept in a variable named ""total_amount""<br/>
+4. The function will expose 3 functions:<br/>
+&emsp;4.1 ""makeDeposit"" will receive a ""deposit"" that will be added to the ""total_amount"", then it will print to the screen the string ""The total amount in your account is: "" + ""total_amount"".<br/>
+&emsp;4.2 ""makeWithdraw"" will receive a ""withdraw"" request that will substract the specified amount from the ""total_amount"", then it will print to the screen the string ""The total amount in your account is: "" + ""total_amount"".<br/>
+&emsp;4.3 There will be a function ""returnBalance"" that ONLY returns the total amount.<br/><br/>
+
+5. Once the API is created, you will open 2 new accounts:<br/>
+&emsp;5.1 client1, that starts with a deposit of $20.<br/>
+&emsp;5.2 client2, that starts with a deposit of $15.<br/>
+6. Then you will make 2 deposits for client1.<br/>
+&emsp;6.1 A deposit of $550.<br/>
+&emsp;6.2 A new deposit of $50.<br/>
+7. Then you will make 2 deposits for client2.<br/>
+&emsp;7.1 A deposit of $150.<br/>
+&emsp;7.2 A new deposit of $100.<br/>
+8. Then client1 withdraws $225.<br/>
+9. Then client2 withdraws $175.<br/>
+10.Finally, you will print to the console the total amount of the 2 clients as a sum: ""Clients sum total amount: "" + all money in the accounts.
+","const clientAccount = (initial_deposit) => {
+
+    let total_amount = initial_deposit;
+
+    let makeDeposit = (deposit) => {
+        total_amount += deposit;
+        console.log(""The total amount in your account is: "" + total_amount);
+    }
+
+    let makeWithdraw = (withdraw) => {
+        total_amount -= withdraw;
+        console.log(""The total amount in your account is: "" + total_amount);
+    }
+
+    let returnBalance = () => {
+        return total_amount;
+    }
+
+    return{
+        makeDeposit,
+        makeWithdraw,
+        returnBalance
+    }
+};
+
+let client1 = clientAccount(20);
+let client2 = clientAccount(15);
+
+client1.makeDeposit(550);
+client1.makeDeposit(50);
+
+client2.makeDeposit(150);
+client2.makeDeposit(100);
+
+client1.makeWithdraw(225);
+client2.makeWithdraw(175);
+
+console.log(""Clients sum total amount: "" + (client1.returnBalance() + client2.returnBalance()));",28,code-type,,"Wrong answer, check your semicolons. Remember that sending *undefined as argument to these functions would result in ""NaN"" amount.",,https://www.udemy.com/course/understand-javascript/learn/lecture/2258228,Entire video,https://www.udemy.com/the-complete-javascript-course/learn/v4/t/lecture/5869194 ,Entire video,https://www.udemy.com/the-complete-javascript-course/learn/v4/t/lecture/5869200,Entire video,https://app.pluralsight.com/player?course=javascript-good-parts&author=douglas-crockford&name=javascript-good-parts-m3&clip=1&mode=live,04:19,https://app.pluralsight.com/player?course=organizing-javascript-functionality&author=kyle-simpson&name=b35d2756-c552-419d-9917-e4223d0b7ab9&clip=0,03:23,https://app.pluralsight.com/player?course=javascript-from-fundamentals-to-functional-js&author=bianca-gandolfo&name=javascript-from-fundamentals-to-functional-js-m6&clip=4&mode=live,Entire video,https://app.pluralsight.com/player?course=javascript-from-fundamentals-to-functional-js&author=bianca-gandolfo&name=javascript-from-fundamentals-to-functional-js-m6&clip=5&mode=live,Entire video

@@ -1,0 +1,3 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"Node",,"Write the code so Node gets the value of var ""dogName"" from user input when executes 'node index.js Rocky'","var dogName= process.argv[2];
+console.log(dogName);",2,"code-type",,"Wrong answer",,,,,,,

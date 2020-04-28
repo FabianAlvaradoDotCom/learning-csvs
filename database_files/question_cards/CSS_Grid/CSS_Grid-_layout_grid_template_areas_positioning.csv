@@ -1,0 +1,74 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Grid,"Using <b>grid template areas positionining</b> on <b>children</b>, give the below elements the specified positions. Consider they are inside a grid container that creates a grid like this: <code>grid-template-columns: 1fr 3fr;</code><br/><br/>
+1. Container: It will have 3 rows, which will use these template areas: <b>""header"", ""sidebar"", ""content"" and ""footer""</b>.<br/>
+2. Header: It should cover the entire first row.<br/>
+3. Article: it is sit in the second row, but using the right portion of it.<br/>
+4. Aside: Also in the second row, but in the left portion.<br/>
+5. Footer: It covers the entire third row.<br/>
+<pre>.container {
+	display: grid;
+	...
+	grid-template-columns: 1fr 3fr;
+	grid-gap: 20px;
+}
+
+header {
+	...
+}
+
+article {
+	...
+}
+
+aside {
+	...
+}
+
+footer {
+	…
+}</pre>",".container {
+	display: grid;
+	grid-template-areas:
+		""header header""
+		""sidebar content""
+		""footer footer"";
+	grid-template-columns: 1fr 3fr;
+	grid-gap: 20px;
+}
+
+header {
+	grid-area: header;
+}
+
+article {
+	grid-area: content;
+}
+
+aside {
+	grid-area: sidebar;
+}
+
+footer {
+	grid-area: footer;
+}",".container {
+	display: grid;
+	...
+	grid-template-columns: 1fr 3fr;
+	grid-gap: 20px;
+}
+
+header {
+	...
+}
+
+article {
+	...
+}
+
+aside {
+	...
+}
+
+footer {
+	…
+}",25,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids,,,,,,,,,,,,,

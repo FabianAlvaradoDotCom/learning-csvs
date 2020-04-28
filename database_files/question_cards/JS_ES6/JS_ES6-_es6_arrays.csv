@@ -1,0 +1,6 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+Javascript,ES6 Arrays,"What is the ES6 method that from a <b>Nodes List</b> returns an <b>actual Array</b> (of nodes)? Refactor the code below so it returns an Array of Nodes.
+
+<pre>let divs_list = document.getElementsByTagName('div');</pre>","let divs_list = Array.from(document.getElementsByTagName('div'));
+
+",1,code-type,let divs_list = document.getElementsByTagName('div');,Wrong,,https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/6034318,,,,,,,,,,,,,

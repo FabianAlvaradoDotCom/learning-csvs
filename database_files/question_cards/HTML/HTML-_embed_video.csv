@@ -1,0 +1,16 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Basics,"Enter the code to embed a video that will have the following a characteristics:<br/><br/>
+-Controls<br/>
+-Autoplay<br/>
+-Loop<br/>
+-Muted<br/>
+-Poster: ""poster.png""<br/>
+-Video source: ""example.mp4""<br/>
+-Alternative video source: ""example.webm""<br/>
+-Subtitles track: ""subtitles_en.vtt"" in english<br/>
+-A fall back message: ""Your browser doesn't support HTML video.""","&lt;video controls autoplay loop muted poster=""poster.png""&gt;
+  &lt;source src=""example.mp4"" type=""video/mp4""&gt;
+  &lt;source src=""example.webm"" type=""video/webm""&gt;
+  &lt;track kind=""subtitles"" src=""subtitles_en.vtt"" srclang=""en""&gt;     
+  &lt;p&gt;Your browser doesn't support HTML video.&lt;/p&gt;
+&lt;/video&gt;",,12,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content,,,,,,,

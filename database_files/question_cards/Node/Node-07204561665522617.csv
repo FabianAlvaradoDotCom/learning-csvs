@@ -1,0 +1,6 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"Node","Core Modules","What is the code to ask a question and expect for an answer using the readline module? Write the code to require the module, to create the instance of readline and to create the interface.","var readline = require('readline');
+var rl = readline.createInterface(process.stdin, process.stdout);
+rl.question(""Is this the question?"", function (answer) {
+   console.log(answer);
+});",5,"code-type",,"Wrong answer",,,,,,,

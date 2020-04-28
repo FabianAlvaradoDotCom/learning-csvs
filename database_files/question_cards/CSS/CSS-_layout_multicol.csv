@@ -1,0 +1,10 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Multicolumn Layout,"What is required for converting any block element (a div for this purpose), into a multicolumn fixed container of 3 columns?<br/>
+Add the code so the below will be a multicolumn container of 3 columns:
+<pre>.container {
+	...
+}</pre>",".container {
+	column-count: 3;
+}",".container {
+	...
+}",3,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Multiple-column_Layout,,,,,,,,,,,,,

@@ -1,0 +1,20 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+SCSS,Nesting,"Refactor the regular CSS code into <b>SCSS</b> code:
+<pre>p{
+	background-color: $color-primary;
+}
+
+p::first-line{
+	text-decoration: underline;
+}</pre>","p{
+	background-color: $color-primary;
+	&::first-line{
+		text-decoration: underline;
+	}
+}","p{
+	background-color: $color-primary;
+}
+
+p::first-line{
+	text-decoration: underline;
+}",7,code-type,Think in the PARENT SELECTOR,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274454,08:20,,,,,,,,,,,,

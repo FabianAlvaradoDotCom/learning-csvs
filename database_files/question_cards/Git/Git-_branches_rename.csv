@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+Git,Branch,"Write the code to rename the branch ""current_name"" to ""new_name""",git <b>branch -m</b> current_name new_name,,1,code-type,,incorrect,,https://www.udemy.com/course/git-complete/learn/lecture/1955620?start=218,,,,,,,,,,,,,

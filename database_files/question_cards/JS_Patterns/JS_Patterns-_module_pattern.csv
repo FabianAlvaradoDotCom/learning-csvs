@@ -1,0 +1,14 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+Javascript,Module pattern,Module pattern example.,"var my_module = (function(var1, var2, var3) {
+  const function1 = () =&gt; {
+    return null;
+  }
+  const function2 = () =&gt; {
+    return null;
+  }
+  return{
+    function1,
+    function2
+  }
+
+})(var1,var2,var3);",12,code-type,,Wrong,,,,,,,,,,,,,,,

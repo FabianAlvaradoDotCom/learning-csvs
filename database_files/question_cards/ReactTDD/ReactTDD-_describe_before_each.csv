@@ -1,0 +1,47 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+ReactTDD,Describe and BeforeEach Excercise,"Update the code below so instead of 2 individual tests, they have the same context ""Tests for checking title"", and in addition the repeated intializations are created in a way that we avoid repeating code:
+<pre>test('Test 1', () => {
+	const wrapper = shallow(&lt;App />);
+	const app_title = wrapper.find('[data-test=""app-title""]');
+	const value_to_compare = ""My Initial Value"";
+	expect(app_title.text()).toBe(value_to_compare);
+});
+
+test('Test 2', () => {
+	const wrapper = shallow(&lt;App />);
+	const app_title = wrapper.find('[data-test=""app-title""]');
+	const value_to_compare = ""My Updated Value"";
+	expect(app_title.text()).toBe(value_to_compare);
+});</pre>","<b class=""red"">describe</b>('<b class=""green"">Tests for checking title</b>', () => {
+
+	let <b class=""blue"">wrapper</b>;
+	let <b class=""blue"">app_title</b>;
+
+	<b>beforeEach(</b> () => {
+		<b class=""blue"">wrapper</b> = shallow(&lt;App />);
+		<b class=""blue"">app_title</b> = wrapper.find('[data-test=""app-title""]');
+	}<b>)</b>;
+
+	test('Test 1', () => {
+		const value_to_compare = ""My Initial Value"";
+		expect(app_title.text()).toBe(value_to_compare);
+	});
+
+	test('Test 2', () => {
+		const value_to_compare = ""My Updated Value"";
+		expect(app_title.text()).toBe(value_to_compare);
+	});
+
+});",,20,code-type,"test('Test 1', () => {
+	const wrapper = shallow(<App />);
+	const app_title = wrapper.find('[data-test=""app-title""]');
+	const value_to_compare = ""My Initial Value"";
+	expect(app_title.text()).toBe(value_to_compare);
+});
+
+test('Test 2', () => {
+	const wrapper = shallow(<App />);
+	const app_title = wrapper.find('[data-test=""app-title""]');
+	const value_to_compare = ""My Updated Value"";
+	expect(app_title.text()).toBe(value_to_compare);
+});",Remember import statements,,https://www.udemy.com/course/react-testing-with-jest-and-enzyme/learn/lecture/10532636?start=50,,https://www.udemy.com/course/react-testing-with-jest-and-enzyme/learn/lecture/10532640?start=191,,,,,,,,,,,

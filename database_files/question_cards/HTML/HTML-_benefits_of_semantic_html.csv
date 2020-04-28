@@ -1,0 +1,6 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Basics,Write 3 benefits of using headings,"1. Users looking at a web page tend to scan quickly to find relevant content, often just reading the headings, if they can't see anything useful within a few seconds, they'll likely get frustrated and go somewhere else.<br/>
+2. Search engines indexing your page consider the contents of headings as important keywords. Without headings, your page will perform poorly in terms of SEO.<br/>
+3. Severely visually impaired people often don't read web pages; they listen to them instead. This is done with software called a screen reader. They provide an outline of the document by reading out the headings, allowing their users to find the information they need quickly. If headings are not available, they will be forced to listen to the whole document read out loud.","1.
+2.
+3.",5,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML,,,,,,,

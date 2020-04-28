@@ -1,0 +1,23 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Flexbox,"By using the below code, we will have rows with that specific height, which will cause an overflow if the content is higher than the track. Improve the code so the rows will be at least <b>50px</b> height, but <b>auto sized</b> in case that the content is <b>heigher</b> than those 50px.<br/>
+<pre>#parent{
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-auto-rows: 50px;
+	grid-row-gap: 10px;
+}</pre>","#parent{
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-auto-rows: minmax(50px, auto);
+	grid-row-gap: 10px;
+}","#parent{
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-auto-rows: 50px;
+	grid-row-gap: 10px;
+}",6,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,

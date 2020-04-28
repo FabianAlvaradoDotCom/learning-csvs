@@ -1,0 +1,18 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Types_and_Syntax,Tricks,"Write in a list the corresponding return results for the below statements:<br/>
+0 == ''<br/>
+0 == '0'<br/>
+'' == '0'<br/>
+false == 'false'<br/>
+false == '0'<br/>
+"" \t\r\n "" == '0'","true<br/>
+true<br/>
+false<br/>
+false<br/>
+true<br/>
+true",6,text-type,"false?
+true?
+false?
+true?
+false?
+true?",Wrong answer,,https://app.pluralsight.com/player?course=javascript-good-parts&author=douglas-crockford&name=javascript-good-parts-m1&clip=4&mode=live,00:27,,,,

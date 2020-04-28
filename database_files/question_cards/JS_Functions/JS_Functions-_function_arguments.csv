@@ -1,0 +1,7 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Functions,Test,"The ""arguments"" object is a local variable available within all (non-arrow) functions. You can refer to a function's arguments within the function by using the ""arguments"" object. This object contains an entry for each argument passed to the function, the first entry's index starting at 0. Write the code so: <br/><br/>1.- Create a function ""countingArgs"" that will print to the console all keys of the ""arguments"" object [x] passed to the function plus the corresponding argument, like this: ""0 --> Some Value""<br/>2.-  Invoke the created function by passing these arguments: ""one"", ""two"", ""three"".","const countingArgs = function(){
+	for(let x in arguments){
+		console.log(x + ""-->"" + arguments[x]);
+	};
+};
+countingArgs(""one"", ""two"", ""three"");",6,code-type,,"Wrong answer, check your semicolons",,,,,,,

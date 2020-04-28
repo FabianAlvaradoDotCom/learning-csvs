@@ -1,0 +1,9 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+DataStructures,Stack,What is a <b>Queue</b> structure?,"It is a collection where the items are added to the end but we access the first element.
+<br/>And the methods to manipulate it are:<br/>
+<code>print</code> prints the entire collection,<br/>
+<code>enqueue</code> that pushes an element to te end,<br/>
+<code>dequeue</code> removes the first element of the collection and returns it,<br/>
+<code>front</code> returns the first item of the collection without removing it,<br/>
+<code>size</code> returns the number of elements,<br/>
+and <code>isEmpty</code> verifies that the collection is empty.",,1,text-type,,,,https://youtu.be/t2CEgPsws3U?t=279,,,,,,,,,,,,,

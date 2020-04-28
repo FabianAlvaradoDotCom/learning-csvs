@@ -1,0 +1,4 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+ReactClassBased,React Lifecycle Hooks,What is the lifecycle hook we wan call to cleanup before a component gets removed from the dom? Write the syntax and a in the next line write a brief explanation.,"1. Name of the lifecycle hook: <code>componentWillUnmount()</code>
+
+2. It is invoked immediately before a component is unmounted and destroyed. Perform any necessary cleanup in this method, such as invalidating timers, canceling network requests, or cleaning up any subscriptions that were created in componentDidMount().",,5,text-type,,Wrong,,https://reactjs.org/docs/react-component.html#componentwillunmount,,,,,,,,,,,,,

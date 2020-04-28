@@ -1,0 +1,7 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Types_and_Syntax,Basics,"What results from executing the below?<br>
+<pre>Number(null);
+Number(undefined);
+</pre>","0
+NaN",3,code-type,"Number(null) // What returns?
+Number(undefined); //What returns?",Wrong,,https://www.udemy.com/course/understand-javascript/learn/lecture/2237496,07:15,,,,

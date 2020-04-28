@@ -1,0 +1,39 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Forms,"Write what pseudo-class applies for the given description:<br/><br/>
+1. <code>:_</code> --> Matches any <code>input</code>, <code>select</code> and <code>textarea</code> that does not have ""required"" attribute.<br/>
+2. <code>:_</code> --> Matches any <code>input</code>, <code>select</code> and <code>textarea</code> that has ""required"" attribute.<br/>
+3. <code>:_</code> --> Matches any <code>input</code>, <code>select</code> and <code>textarea</code> that does not have ""disabled"" attribute.<br/>
+4. <code>:_</code> --> Matches any <code>input</code>, <code>select</code> and <code>textarea</code> that has ""disabled"" attribute.<br/>
+5. <code>:_</code> --> Matches any <code>radio button</code> and <code>checkbox</code> that has been checked by the user.<br/>
+6. <code>:_</code> --> Matches any <code>radio button</code> and <code>checkbox</code> that was checked by default when the page loaded, even if the user has unchecked it.<br/>
+7. <code>:_</code> --> Matches any <code>input</code>, <code>select</code> and <code>textarea</code> that has been filled out with the valid characters.<br/>
+8. <code>:_</code> --> Matches any <code>input</code>, <code>select</code> and <code>textarea</code> that is required but does not have any text or that has a text but does not meet the content requirement.<br/>
+9. <code>:_</code> --> pseudo-classes represents <code>input</code> elements whose current value is inside the range limits specified by the min and max attributes.<br/>
+10. <code>:_</code> --> pseudo-classes represents <code>input</code> elements whose current value is outside the range limits specified by the min and max attributes. An element out of range also matches the <code>:invalid</code> pseudo-class.<br/>
+11. <code>:_</code> --> pseudo-element that represents an <code>input</code> and <code>textarea</code> that is not editable by the user.<br/>
+12. <code>:_</code> --> pseudo-element that represents an <code>input</code> and <code>textarea</code> that is editable by the user.<br/>
+13. <code>:_</code> --> matches <code>input</code> and <code>textarea</code> elements that support and currently have the placeholder attribute, and still have the placeholder showing because the value of the element is still empty.<br/>","1. <code>:optional</code> --> Matches any <code>input</code>, <code>select</code> and <code>textarea</code> that does not have ""required"" attribute.<br/>
+2. <code>:required</code> --> Matches any <code>input</code>, <code>select</code> and <code>textarea</code> that has ""required"" attribute.<br/>
+3. <code>:enabled</code> --> Matches any <code>input</code>, <code>select</code> and <code>textarea</code> that does not have ""disabled"" attribute.<br/>
+4. <code>:disabled</code> --> Matches any <code>input</code>, <code>select</code> and <code>textarea</code> that has ""disabled"" attribute.<br/>
+5. <code>:checked</code> --> Matches any <code>radio button</code> and <code>checkbox</code> that has been checked by the user.<br/>
+6. <code>:default</code> --> Matches any <code>radio button</code> and <code>checkbox</code> that was checked by default when the page loaded, even if the user has unchecked it.<br/>
+7. <code>:valid</code> --> Matches any <code>input</code>, <code>select</code> and <code>textarea</code> that has been filled out with the valid characters.<br/>
+8. <code>:invalid</code> --> Matches any <code>input</code>, <code>select</code> and <code>textarea</code> that is required but does not have any text or that has a text but does not meet the content requirement.<br/>
+9. <code>:in-range</code> --> pseudo-classes represents <code>input</code> elements whose current value is inside the range limits specified by the min and max attributes.<br/>
+10. <code>:out-range</code> --> pseudo-classes represents <code>input</code> elements whose current value is outside the range limits specified by the min and max attributes. An element out of range also matches the <code>:invalid</code> pseudo-class.<br/>
+11. <code>:read-only</code> --> pseudo-element that represents an <code>input</code> and <code>textarea</code> that is not editable by the user.<br/>
+12. <code>:read-write</code> --> pseudo-element that represents an <code>input</code> and <code>textarea</code> that is editable by the user.<br/>
+13. <code>:placeholder-shown</code> --> matches <code>input</code> and <code>textarea</code> elements that support and currently have the placeholder attribute, and still have the placeholder showing because the value of the element is still empty.<br/>","1. :_ --> Matches any input, select and textarea that does not have ""required"" attribute.<br/>
+2. :_ --> Matches any input, select and textarea that has ""required"" attribute.<br/>
+3. :_ --> Matches any input, select and textarea that does not have ""disabled"" attribute.<br/>
+4. :_ --> Matches any input, select and textarea that has ""disabled"" attribute.<br/>
+5. :_ --> Matches any radio button and checkbox that has been checked by the user.<br/>
+6. :_ --> Matches any radio button and checkbox that was checked by default when the page loaded, even if the user has unchecked it.<br/>
+7. :_ --> Matches any input, select and textarea that has been filled out with the valid characters.<br/>
+8. :_ --> Matches any input, select and textarea that is required but does not have any text or that has a text but does not meet the content requirement.<br/>
+9. :_ --> pseudo-classes represents input elements whose current value is inside the range limits specified by the min and max attributes.<br/>
+10. :_ --> pseudo-classes represents input elements whose current value is outside the range limits specified by the min and max attributes. An element out of range also matches the :invalid pseudo-class.<br/>
+11. :_ --> pseudo-element that represents an input and textarea that is not editable by the user.<br/>
+12. :_ --> pseudo-element that represents an input and textarea that is editable by the user.<br/>
+13. :_ --> matches input and textarea elements that support and currently have the placeholder attribute, and still have the placeholder showing because the value of the element is still empty.<br/>",13,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/UI_pseudo-classes,,,,,,,

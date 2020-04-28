@@ -1,0 +1,6 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Types_and_Syntax,Arrays,"Create a let called ""parts_array"" and assign it to an array literal. Place at the creation one element in the array: ""engine"". Then:<br/>
+ -Using a native array method: Add ""turbo"" to the beginning of the ""parts_array"".<br/>
+-Using a native array method: Add ""brakes"" to the end of the ""parts_array"".","let parts_array = [""engine""];
+parts_array.unshift(""turbo"");
+parts_array.push(""brakes"");",4,code-type,,Please verify your semicolons,,,,,,,

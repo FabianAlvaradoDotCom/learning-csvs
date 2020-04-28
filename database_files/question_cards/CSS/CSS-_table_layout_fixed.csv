@@ -1,0 +1,7 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Tables,"What property/value we use for making a table layout to behave predictably?<br/>
+Enter the code to make a table to have the above mentioned property and value.","table {
+  table-layout: fixed;
+}","?? {
+  ?? : ??;
+}",3,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Styling_tables,,,,,,,,,,,,,

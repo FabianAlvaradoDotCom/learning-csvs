@@ -1,0 +1,3 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"WAAPI","Preheating - CSS Animations","Write in the below order what processing unit to use them to process animations:<br>-CSS<br> <br>-WAAPI<br> <br> ","GPU<br/>GPU",9,"text-type","CPU or GPU?
+CPU or GPU",,,"https://app.pluralsight.com/player?course=web-animations-api-building-uis&author=leon-revill&name=40d203fb-91bc-4b34-ae2c-a56f26e14f71&clip=2&mode=live","0:20",,,,

@@ -1,0 +1,7 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+SCSS,Not last child,"Write the SCSS code of how you would apply some styles ""..."" to all rows of class <code>row</code>, but not to the last one:",".row{
+	...
+	&:not(:last-child){
+		...
+	}
+}",,5,code-type,Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274486?start=815,13:35,,,,,,,,,,,,

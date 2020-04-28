@@ -1,0 +1,18 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"JS_Objects","Object Functions","Using the brakets notation, create an object named ""seller"" that will have the properties ""first_name"", ""last_name"", ""position"" and ""currentSales"", corresponding to ""John"", ""Doe"",""Staff"" and 5500 respectively.<br>2.- Then create a declared function ""getData1"" that will return an array of the KEYS of the ""seller"" object. Use as place_holders, vars or parameters the next words, make them suit in the best place: ""myObj"", ""keyValue"", ""propsArray""<br> <br>3.- Create a variable ""sellerData1"" that will have as value the array returned by ""getData1"" function.<br> <br>4.- Create a variable ""sellerData2"" that will have as value an array obtained by executing the __________ method on the seller object.<br> <br>5.- Print them to the console, in one line sellerData1 and sellerData2 on the next line.","var seller = {
+    first_name: ""John"",
+    last_name: ""Doe"",
+    position: ""Staff"",
+    currentSales: 5500
+};
+function getData1(myObj){
+    var propsArray = [];
+    for(var keyValue in myObj ){
+        propsArray.push(keyValue);
+    };
+    return propsArray;
+};
+var sellerData1 = getData1(seller);
+var sellerData2 = Object.keys(seller);
+console.log(sellerData1);
+console.log(sellerData2);",17,"code-type",,"Wrong answer, check your semicolons",,"https://app.pluralsight.com/player?course=organizing-javascript-functionality&author=kyle-simpson&name=b35d2756-c552-419d-9917-e4223d0b7ab9&clip=1","Entire video",,,,

@@ -1,0 +1,15 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Redux Wiring Up,"What are the steps for adding a reducer to an existent store?<br/>
+1. <br/>
+2. <br/>
+3. <br/>
+4. <br/>
+5. ","1. Create the <b>new reducer file</b>.<br/>
+2. Import the <b>new reducer</b> into the index.js file.<br/>
+3. Import the <b>combineReducers</b> function from redux into the index.js file.<br/>
+4. Create the store, but the function <b>createStore</b> receives as argument the function <b>combineReducers</b> that in turn is passing as argument <b>an object of the reducers</b> to use.<br/>
+5. Within the components that have <b>useSelector hook</b>, we just <b>add</b> the name of the reducer in the middle of the return statement: state.<b>balance_reducer</b>.balance",7,text-type,"1. 
+2. 
+3. 
+4. 
+5. ",Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/15356108,,,,,,,,,,,,,

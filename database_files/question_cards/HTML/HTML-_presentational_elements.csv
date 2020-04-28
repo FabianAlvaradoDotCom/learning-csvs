@@ -1,0 +1,7 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Basics,"Presentational elements are elements that have no sematic value and should not be used, they were replaced by semantic elements: Strong, Emphasis, etc.<br/>
+Write 3 presentational elements:","1. &lt;b&gt;
+2. &lt;i&gt;
+3. &lt;u&gt;","1.
+2.
+3.",1,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML,,,,,,,

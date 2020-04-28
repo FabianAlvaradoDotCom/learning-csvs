@@ -1,0 +1,4 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Types_and_Syntax,Basics,"Write the code to convert ""my_var"" into a number, in the first line write the long statement, in the second line write the shorter and PREFERED method","Number(my_var);
++my_var;",2,code-type,"First method...;
+Second method...;",Wrong answer,,,,,,,

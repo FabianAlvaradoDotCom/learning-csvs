@@ -1,0 +1,9 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,BEM,"What does BEM stand for?<br/>
+B: <br/>
+E: <br/>
+M: ","B: Block - Standalone entity that is meaningful on its own. <br/>
+E: Element - A part of a block that has no standalone meaning and is semantically tied to its block.<br/>
+M: Modifier - A flag on a block or element. Use them to change appearance or behavior.","B: 
+E: 
+M: ",5,text-type,Wrong,,http://getbem.com/introduction/,,,,,,,,,,,,,

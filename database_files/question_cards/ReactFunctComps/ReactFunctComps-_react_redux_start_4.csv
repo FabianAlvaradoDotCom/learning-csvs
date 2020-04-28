@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Redux Wiring Up,Where do we wire up redux reducer?,"On the very start of our code, which would be <b>index.js</b>",1,text-type,,Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893560?start=574,,,,,,,,,,,,,

@@ -1,0 +1,13 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+CSS,CSS Basics,What is the rule to apply before styling any website for a consistent box sizing and uniform lements?,"html{
+	font-size: 62.5%;
+}
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: inherit;
+}
+body{
+	font-size: 1.6rem;
+	box-sizing: border-box;
+}",11,code-type,,Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274400,,,,,,,,,,,,,

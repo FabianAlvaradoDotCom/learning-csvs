@@ -1,0 +1,14 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+JavaScript,Custom Events,"*Using arrow functions when possible.<br/>
+Write the code to create a custom event that on the fly(not assigned to any variable) will do this:<br/><br/>
+1. Will be triggered when the user clicks the element with the id ""sensor-3d"".<br/>
+2. The custom event will be dispatched by the document.<br/>
+3. The custom event name is ""click-sensor-3d"".<br/>
+4. The custom event will pass through the data property the object {coords: 200}.<br/>
+5. Create an event listener attached to the body that will print to the console the ""{coords: 200}"".<br/>","document.getElementById('sensor-3d').addEventListener('click', () =&gt; {
+	document.<b>dispatchEvent</b>( new <b>CustomEvent</b>(""click-sensor-3d"", <b>{ detail: {coords: 200}</b>}));
+});
+
+document.addEventListener(<b>""click-sensor-3d""</b>, (e) =&gt; {
+	console.log(e.detail);
+});",6,code-type,,Wrong,,https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events,,,,,,,,,,,,,

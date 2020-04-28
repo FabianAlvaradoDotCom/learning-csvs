@@ -1,0 +1,15 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+CSS,Basics,"Mention 5 properties inherited from parent to children:<br/><br/>
+1.<br/>
+2.<br/>
+3.<br/>
+4.<br/>
+5.","1. color <br/>
+2. cursor<br/>
+3. font<br/>
+4. list-style<br/>
+5. text-align","1.
+2.
+3.
+4.
+5.",5,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance,,,,,,,

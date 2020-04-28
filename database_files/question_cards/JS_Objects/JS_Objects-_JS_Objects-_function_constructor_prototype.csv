@@ -1,0 +1,2 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Objects,Function Constructor Prototype,What is really the Function Constructor Prototype?,"It is not the prototype of the function, it is the prototype of all objects created from the function.",1,text-type,,Wrong answer,,https://www.udemy.com/course/understand-javascript/learn/lecture/2237572,,,,,

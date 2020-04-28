@@ -1,0 +1,15 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+HTML,Conditional comment,"Write the html code so the below styles are applied only to IE browser older than than or equal to IE7.<br/>
+<pre>...
+	&lt;style&gt;
+		background-color: red;
+	&lt;/style&gt;
+...</pre>","&lt;!--[if lte IE 7]&gt;
+	&lt;style&gt;
+		background-color: red;
+	&lt;/style&gt;
+&lt;![endif]--&gt;","...
+	<style>
+		background-color: red;
+	</style>
+...",3,code-type,,,https://en.m.wikipedia.org/wiki/Conditional_comment,,,,,,,,,,,,,

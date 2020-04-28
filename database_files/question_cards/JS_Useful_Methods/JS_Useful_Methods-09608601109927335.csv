@@ -1,0 +1,2 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"JS_Useful_Methods","Arrays","What does the .shift() method do?","It removes the first item of an array and returns that item. It also is destructive as it changes the length of the array.",4,"text-type","It _______ the _____ ____...","Wrong answer",,,,,,,

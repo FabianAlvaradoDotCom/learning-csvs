@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Router and Redux,What do we need to install with <b>npm</b> for having react router and react redux running on our application? Write the code to enter into the terminal.,npm i -S react-router-dom redux react-redux,1,code-type,,Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893560,,,,,,,,,,,,,

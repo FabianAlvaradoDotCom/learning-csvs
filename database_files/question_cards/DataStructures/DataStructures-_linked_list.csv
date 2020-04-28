@@ -1,0 +1,6 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+DataStructures,Stack,What is a <b>Linked List</b> structure?,"It is a common data structure where elements are stored in a node that contains, the element an the reference to the next node. One of its characteristics are these:<br/>
+<code>Dynamic size</code><br/>
+<code>Efficient insertions and deletions</code><br/>
+<code>No random access</code><br/>
+<code>Sequential access slow</code> because they are not stored in contiguous memory locations.",,1,text-type,,,,https://youtu.be/t2CEgPsws3U?t=279,,,,,,,,,,,,,

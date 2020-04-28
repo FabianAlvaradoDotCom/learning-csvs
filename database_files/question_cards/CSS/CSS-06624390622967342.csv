@@ -1,0 +1,2 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"CSS","Attribute Selectors","Write the code to select and make red font all ""div"" elements that have exactly the ""id"" attribute equals to ""container"" and have exactly the ""class"" attribute equals to ""red""","div[id=""container""][class=""red""]{color:red;}",2,"code-type",,"Wrong answer",,,,,,,

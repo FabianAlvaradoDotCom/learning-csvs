@@ -1,0 +1,4 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+JavaScript,For loop with no clauses,"Write the JS code to make a for loop that prints ""endless"". Remeber that this should have no clauses.","for(;;){
+	console.log(""endless"");
+}",,3,code-type,,,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for,,,,,,,,,,,,,

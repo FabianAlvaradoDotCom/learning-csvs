@@ -1,0 +1,17 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,reference_time4,,reference_time5,,reference_time6,
+Javascript,ES6 Default Parameter,"Update the code below so when no parameter is passed, the function is still able to print a message, a default message: ""<b>This is the default message</b>"".<pre>const printMessage = (message) => {
+    console.log(message);
+}
+
+printMessage(""This is a custom message"");
+printMessage();</pre>","const printMessage = (message<b> = ""This is the default message""</b>) => {
+    console.log(message);
+}
+
+printMessage(""This is a custom message"");
+printMessage();",,6,code-type,"const printMessage = (message) => {
+    console.log(message);
+}
+
+printMessage(""This is a custom message"");
+printMessage();",,,https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/6034326?start=387,,,,,,,,,,,,

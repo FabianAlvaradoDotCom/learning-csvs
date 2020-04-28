@@ -1,0 +1,9 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,reference_time4,,reference_time5,,reference_time6,
+ReactClassBased,Arrow methods,"What is the method syntax for avoiding having errors due to pointing to the wrong <b>this</b>? Complete the code below.
+<pre>changeHandler{
+	...
+}</pre>","changeHandler = () => {
+	...
+}",,3,code-type,"changeHandler{
+	...
+}",,,https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/8091064?start=102,,,,,,,,,,,,

@@ -1,0 +1,16 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,reference_time4,,reference_time5,,reference_time6,
+Javascript,ES6 Function Operators,"What is the operator that allows a function to receive any number of arguments so then the function can consume them from an array? Write the name of the operator in the line 1 and in the line 2 an example of an arrow function <b>getParams </b> that will use the [?] operator to then be able to use the array <b>params</b>, in this case to print the array to the console.<br/>
+<pre>...
+...
+getParams(1,2, ""three"");</pre>
+","<b>Rest</b> operator
+
+const getParams = (<b>...params</b>) => {
+	console.log(params);
+}
+
+getParams(1,2, ""three"");","*Remember that for <b>normal functions</b>, there is the <b>arguments</b> keyword that returns an <b>array like</b> list, but it does not exist for arrow functions.",6,code-type,"R... operator
+
+...
+
+getParams(1,2, ""three"");",,,https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/6034316?start=256,,,,,,,,,,,,

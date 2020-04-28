@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Hooks,Do useState updates happen immediatelly?,"No, useState is asyncronous, as React batches render cycles for performance.",1,text-type,,Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893434#overview,,,,,,,,,,,,,

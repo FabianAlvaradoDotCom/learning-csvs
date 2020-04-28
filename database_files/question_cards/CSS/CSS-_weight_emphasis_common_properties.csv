@@ -1,0 +1,8 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Text,What are the 4 common <b>wight/emphasis</b> properties?,"1. <code>font-style</code> (normal, italic, oblique).<br/>
+2. <code>font-weight</code> (normal, bold, lighter, bolder).<br/>
+3. <code>text-transform</code> (none, uppercase, lowercase, capitalize, full-width)<br/>
+4. <code>text-decoration</code> (noe, underline, overline, line-through)","1. 
+2. 
+3. 
+4. ",5,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals,,,,,,,,,,,,,

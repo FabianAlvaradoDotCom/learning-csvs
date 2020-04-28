@@ -1,0 +1,5 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+JavaScript,Spread Operator,"The spread operator works only on iterable objects and arrays. Write the code to copy the first object into the other variable, and add a property ""extra"" with a value of 20.<pre>let jsonified_data = {one: 1, two: 2};
+let new_data = {};</pre>","let jsonified_data = {one: 1, two: 2};
+let new_data = {...jsonified_data, extra: 20};",2,code-type,"let jsonified_data = {one: 1, two: 2};
+let new_data = {};",Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893422#overview,,,,,,,,,,,,,

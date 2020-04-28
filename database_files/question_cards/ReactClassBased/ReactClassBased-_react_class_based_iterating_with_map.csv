@@ -1,0 +1,12 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+ReactClassBased,Populating from Arrays,"Write the code to generate into the below <b>&lt;ul></b> a &lt;li> for each array element. Consider that the array comes from the parent as a prop ""<b>data_array</b>"".<br/>
+* Use ""<code>element</code>"" and ""<code>index</code>"" as arguments for <code>map</code> method.
+<pre>&lt;ul>
+	...
+&lt;/ul></pre>","&lt;ul>
+	{this.props.data_array.map((element, index)=> {
+		return &lt;li key={index}>{element}</li>
+	})}
+&lt;/ul>",,4,code-type,"<ul>
+	...
+</ul>",,,https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/13556164,,,,,,,,,,,,,

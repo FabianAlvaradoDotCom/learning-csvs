@@ -1,0 +1,18 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+CSS,CSS Basics,"What is the code necessary to clip a text and make it to take the color of the background?
+<pre>h2{
+	display: inline-block; // -Delete comment-For making the gradient to cover the word and not the full width of the parent
+	background-image: linear-gradient(to left, (yellow, red));
+	...
+	...
+}</pre>","h2{
+	display: inline-block;
+	background-image: linear-gradient(to left, (yellow, red));
+	background-clip: text;
+	color: transparent;
+}",5,code-type,"h2{
+	display: inline-block; // -Delete comment-For making the gradient to cover the word and not the full width of the parent
+	background-image: linear-gradient(to left, (yellow, red));
+	...
+	...
+}",Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274490,09:50,,,,,,,,,,,,

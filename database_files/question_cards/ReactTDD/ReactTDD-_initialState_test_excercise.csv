@@ -1,0 +1,13 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+ReactTDD,Excercise,"Write the <b>state</b> checking test ""<b>Counter starts at 0</b>"", to test the App component, that will verify if we have our state property ""<b>counter</b>"" set to 0. *Use the variable name ""<code>initial_counter_state</code>"" to store the state counter value.","import React from 'react';
+import Enzyme, { shallow } from 'enzyme';
+import EnzymeAdapter from 'enzyme-adapter-react-16';
+import App from './App';
+
+Enzyme.configure({ adapter: new EnzymeAdapter() });
+
+test('Counter starts at 0', () => {
+	const wrapper = shallow(&lt;App />);
+	const initial_counter_state = wrapper.state('counter');
+	expect(initial_counter_state).toBe(0);
+});",,11,code-type,Include import statements,Remember import statements,,https://www.udemy.com/course/react-testing-with-jest-and-enzyme/learn/lecture/10532334?start=73,,,,,,,,,,,,,

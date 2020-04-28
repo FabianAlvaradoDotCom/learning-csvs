@@ -1,0 +1,14 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Types_and_Syntax,Functions are Objects,"Please write which one corresponds to Function Expression and Function Statement:
+<pre>a)
+   var myFunction = function(){
+   &#09;console.log('Lorem Ipsum');
+   }
+
+b)
+   function myFunction(){
+   &#09;console.log('Lorem Ipsum');
+   }
+</pre>","a) Function Expression<br/>
+b) Function Statement",4,text-type,"a) Function __
+b) Function __",Review your code,,https://www.udemy.com/course/understand-javascript/learn/lecture/2237524,,,,,

@@ -1,0 +1,45 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+WAAPI,Preheating - CSS Animations,"Using the code below, add the css code we need for creating a transition that on mouse hover moves the box 500 pixels to the right and lasts 2 linear seconds<pre>// CSS Code
+.box{
+  width:200px;
+  height:200px;
+}
+
+#box1{
+  background-color:blue;
+}
+
+// HTML
+&lt;div class=""box"" id=""box1""&gt;Box&lt;/div&gt;</pre>","// CSS Code
+.box{
+  width:200px;
+  height:200px;
+  transition: transform 2s;
+}
+
+#box1{
+  background-color:blue;
+}
+
+#box1:hover{
+  transform: translateX(500px);
+}
+
+// HTML
+&lt;div class=""box"" id=""box1""&gt;Box&lt;/div&gt;",15,code-type,"// CSS Code
+.box{
+  width:200px;
+  height:200px;
+  ...
+}
+
+#box1{
+  background-color:blue;
+}
+
+#box1...{
+  ...
+}
+
+// HTML
+<div class=""box"" id=""box1"">Box</div>",,,https://app.pluralsight.com/player?course=web-animations-api-building-uis&author=leon-revill&name=c165bda9-a957-410e-86c0-fce96d2158fa&clip=1&mode=live,00:38,,,,

@@ -1,0 +1,2 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"MongoDB","Basics","What is the role of a Primary database?","It is the one and only writeable instance in a replica set, any and all clients that want to write data to the database have to be connected to the primary and have to issue the write commands against the primary, any attempt to write to a secondary will fail.",8,,,"Wrong answer",,,,,,,

@@ -1,0 +1,45 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+React / Redux,Implementing in index.js,What is the code that the index.js should have to implement Redux and middleware?,"import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
+import { Provider } from 'react-redux';
+import thunk from 'redux-thunk';
+
+import reducer_math from './store/reducers/reducer_math';
+import reducer_fetch from './store/reducers/reducer_fetch';
+
+const custom_middleware = (store) => {
+	return (next) => {
+		return (action) => {
+			const result = next(action);
+			return result;
+		}
+	}
+}
+
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+const store = createStore(
+	combineReducers({reducer_math, reducer_fetch}),
+	composeEnhancers(applyMiddleware(custom_middleware, thunk))
+);
+
+ReactDOM.render(
+	&lt;Provider store={store}>
+		&lt;App />
+	&lt;/Provider>,
+	document.getElementById('root')
+);",,28,code-type,"import ?? from 'redux';
+import ?? from 'react-redux';
+import ?? from 'redux-thunk';
+
+import reducer_math from './store/reducers/reducer_math';
+import reducer_fetch from './store/reducers/reducer_fetch';
+
+const custom_middleware = () => {
+	??
+}
+
+const composeEnhancers = ??;
+
+const store = ??;
+
+ReactDOM.render( <App />, document.getElementById('root'));",,,,,,,,,,,,,,,,

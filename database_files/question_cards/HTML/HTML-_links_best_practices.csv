@@ -1,0 +1,9 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Basics,Write all things that a link must have to be a good link:,"1. It must have a title for more information.<br/>
+2. It is better to use relative paths rather than absolute paths.<br/>
+3. Use clear and descriptive link wording (including words like ""download pdf, or 50 mbs"").<br/>
+4. When it is a downloadable resource, include the download=""something.exe"" attribute so it has a default save name.<br/>
+","1.
+2.
+3.
+4.",3,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks,,,,,,,

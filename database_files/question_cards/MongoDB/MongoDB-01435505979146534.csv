@@ -1,0 +1,9 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"MongoDB","Basics","Write a simple example of the 'mongod.config' file that will especify new database path, new log path and maximum verbosity level for the log file","# files residing in:
+dbpath=C:/data/excercise/db
+
+# log file stored:
+logpath = C:/data/excercise/mongo - server.log
+
+# verbosity
+verbose= vvvvv",8,"code-type",,"Wrong answer",,,,,,,

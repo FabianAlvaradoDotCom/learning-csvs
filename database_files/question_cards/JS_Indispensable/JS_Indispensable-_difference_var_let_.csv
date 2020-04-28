@@ -1,0 +1,35 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+JS_Indispensable,JavaScript Closure,"Write the differences between var and let:<br/><br/>
+var :<br/>
+-…<br/>
+-...<br/>
+<br/>
+let:<br/>
+-...<br/>
+-…","<code>var</code> :<br>
+-Function scoped<br>
+-It is hoisted, declarations are processed before any code is executed.<br>
+-When initialized in a for loop, it is OUTSIDE the for loop because it is hoisted in the same lexical scope. It is accessible outside the for loop of course.<br>
+-It creates a property in the global object if it is declared in the global lexical scope.<br>
+<br>
+<code>let:</code><br>
+-Block scoped<br>
+-It does not hoist.<br>
+-It is not initialized until its definition is evaluated.<br>
+-Accessing the variable before the initialization results in a ReferenceError.<br>
+-In a for loop, it is INSIDE the for loop, unaccessible from outside. Every time the loop runs, the used let variable is destroyed and a new one is created.<br>
+-It does not create properties on the global object when it is created.<br>
+-It can be initialized just once.","var :
+-…
+-..
+-…
+-…
+
+let:
+-…
+-...
+-...
+-...
+-…
+-…
+-…",14,text-type,Wrong,,https://www.udemy.com/course/understand-javascript/learn/lecture/2237544,,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let,,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for,,,

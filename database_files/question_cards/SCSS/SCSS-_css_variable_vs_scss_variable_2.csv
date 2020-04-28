@@ -1,0 +1,15 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+SCSS,Variables,"To clear the difference between a <b>CSS</b> vs a <b>SCSS</b> variable, write the code to <b>USE</b> ""<code>color-primary</code>"" on a <code>background-color</code> property, in CSS first and then in SCSS:<br/><br/>
+CSS:<br/>
+background-color: ?<br/><br/>
+SCSS:<br/>
+background-color: ?
+<br/><br/><b>*Remember that using a variable in a calculation needs to have the variable interpolated:</b> <code>#{$variable}</code>","CSS:
+background-color: var(--color-primary);
+
+SCSS:
+background-color: $color-primary;","CSS:
+background-color: ?
+
+SCSS:
+background-color: ?",6,code-type,Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274454,04:33,,,,,,,,,,,,

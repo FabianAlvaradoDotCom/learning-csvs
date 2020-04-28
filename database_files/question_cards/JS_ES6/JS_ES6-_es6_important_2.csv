@@ -1,0 +1,4 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,reference_time4,,reference_time5,,reference_time6,
+Javascript,ES6 Essentials,"We <b>CANNOT ADD</b> properties to classes, only methods.","We <b>CANNOT ADD</b> properties to classes, only methods.",,2,text-type,"We CANNOT ADD properties to classes, only methods.",,,https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/6034340?start=548,,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,

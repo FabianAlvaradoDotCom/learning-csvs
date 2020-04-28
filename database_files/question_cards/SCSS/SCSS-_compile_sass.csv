@@ -1,0 +1,6 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+SCSS,Compiling,"Type the required steps to compile a SCSS file on ""watch"" mode, use this as details: ""source-folder"", ""source-file.scss"", ""target-folder"", ""target-file.css""<br/><br/>
+1. Create script on package.json: ?<br/>
+2. Run on the terminal: ?","1. Create script on package.json: ""compile:sass"":""node-sass source-folder/source-file.scss target-folder/target-file.css -w""
+2. Run on the terminal: npm run compile:sass","1. Create script on package.json: ?
+2. Run on the terminal: ?",3,code-type,Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274464,,,,,,,,,,,,,

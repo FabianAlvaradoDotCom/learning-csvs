@@ -1,0 +1,26 @@
+subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+CSS,Attribute Selectors,"Create the following attribute selectors by adding the proper character to the word 'attr' and 'value'<br/><br/>
+1. [attr...] Elements with an attr whose value is exactly value.<br/>
+2. [attr...] Elements with an attr whose value is exactly value. Can find value within the specific attribute that could be a whitespace-separated list like href=""one two three "".<br/>
+3. [attr...] Elements with an attr whose value can be exactly value or can begin with value immediately followed by a hyphen.<br/>
+4. [attr...] Elements with an attr whose value begins with value.<br/>
+5. [attr...] Elements with an attr whose value ends with value.<br/>
+6. [attr...] Elements with an attr whose value contains at least one occurrence of value anywhere within the string.<br/>
+7. [attr...] Elements with an attr whose value is equals insensitive value<br/>
+8. [attr...] Mostly NOT Supported! Elements with an attr whose value is equals sensitive value<br/> <br/>
+
+*These are the ASCII for some of the needed chars: Caret ^ 94, Swung Dash ~ 126, Pipe | 124.","1. [attr=""value""]
+2. [attr~=""value""]
+3. [attr|=""value""]
+4. [attr^=""value""]
+5. [attr$=""value""]
+6. [attr*=""value""]
+7. [attr=""value"" i]
+8. [attr=""value"" s]","1. [attr=""value""]
+2. [attr=""value""]
+3. [attr=""value""]
+4. [attr=""value""]
+5. [attr=""value""]
+6. [attr=""value""]
+7. [attr=""value""]
+8. [attr=""value""]",8,code-type,Wrong answer,,,06:18,,,,

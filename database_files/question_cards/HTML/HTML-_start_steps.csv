@@ -1,0 +1,31 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+CSS,CSS Essentials,What would be the initial steps for a consistent web developing experience?,"1. Normalize styles (including defining html font-size to 62.5% for it to be the rem)<br/>
+2. Build a grid system<br/>
+3. Plan reusability in advance (try to make the most reusable components and create utility classes)<br/>
+4. <br/>
+5. <br/>
+6. <br/>
+7. <br/>
+8. <br/>
+9. <br/>
+10. <br/>
+11. <br/>
+12. <br/>
+13. <br/>
+14. <br/>
+15. <br/>",16,text-type,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+",Wrong,,,,,,,,,,,,,,,

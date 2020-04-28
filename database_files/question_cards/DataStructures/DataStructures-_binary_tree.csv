@@ -1,0 +1,9 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+DataStructures,Stack,What is a <b>Binary Tree</b> structure?,"It is a collection of items with a tree structure, where the elements can have zero, one or two branches. It is ordered so the branch at the left is less or equal than its parent and the branch at the right is greater or equal than its parent.<br/>
+It helps to perform a search quick because we omit the half of the tree.<br/>
+<br/>And the methods to manipulate it are:<br/>
+<code>add</code> to add a new node,<br/>
+<code>findMin</code> that returns the element at the very left of the tree,<br/>
+<code>findMax</code> returns the element at the very right of the tree,<br/>
+<code>find</code> returns an elememt,<br/>
+and <code>remove</code> removes an element.",,1,text-type,,,,https://youtu.be/t2CEgPsws3U?t=279,,,,,,,,,,,,,

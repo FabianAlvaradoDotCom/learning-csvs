@@ -1,0 +1,8 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+Javascript,ES6 Arrays and Loops,"The <b style=""text-decoration: line-through;"">.map()</b> and <b style=""text-decoration: line-through;"">.forEach()</b> methods, do not allow us to use <b>continue</b> nor <b>break</b> to alter the loop iterations, which new ES6 method or loop does it?",<b>For OF</b>,"<span class=""comments"">You can run this in your browser to confirm:</span>
+
+for(const element of [1,2,3,4,5]){
+	if(element === 2) <b>continue</b>;
+	if(element === 4) <b>break</b>;
+	console.log(element);
+}",1,text-type,,Wrong,,https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/6034318?start=513,,,,,,,,,,,,,

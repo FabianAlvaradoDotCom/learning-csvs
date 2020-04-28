@@ -1,0 +1,6 @@
+﻿subject,question_topic,question,answer,comments,place_holder,answer_type,rows,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+Tools,Live Server,"Type the required steps to install, compile source files and run <b>live-server</b>.<br/><br/>
+1. Install live-server: ?<br/>
+2. Run on the terminal: ?","1. Install live-server: npm i live-server -g
+2. Run on the terminal: live-server",,"1. Install live-server: ?
+2. Run on the terminal: ?",code-type,1,Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274466,,,,,,,,,,,,,

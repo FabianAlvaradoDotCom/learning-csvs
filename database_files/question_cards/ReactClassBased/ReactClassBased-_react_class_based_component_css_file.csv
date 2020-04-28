@@ -1,0 +1,7 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,reference_time4,,reference_time5,,reference_time6,
+ReactClassBased,Two Way Binding,"When you create a CSS style sheet for a particular component, how do you connect it with your .jsx file?<br/>
+In the line 1 write the code to import a file ""ChildComponent.css"" that is in the same directory where we are importing it from, and in the line 2 explain where the compiled css sits.<br/><br/>
+1. <br/>
+2. ","1. import '<b>./ChildComponent.css</b>';<br/>
+2. The css added by a component is at the end appended to the <b>&lt;head></b> tag of the main index.html on its own <b>&lt;style></b> tag.",,3,code-type,"1. 
+2. ",,,https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/8090894,,,,,,,,,,,,

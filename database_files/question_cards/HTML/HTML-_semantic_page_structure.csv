@@ -1,0 +1,14 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Basics,What are the 7 elements we use to strucure our page in a meaningful way.,"1. &lt;header&gt;
+2. &lt;nav&gt;
+3. &lt;main&gt;
+4. &lt;article&gt;
+5. &lt;section&gt;
+6. &lt;aside&gt;
+7. &lt;footer&gt;","1.
+2.
+3.
+4.
+5.
+6.
+7.",7,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure,,,,,,,

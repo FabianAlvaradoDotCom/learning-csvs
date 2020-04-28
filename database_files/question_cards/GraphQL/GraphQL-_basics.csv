@@ -1,0 +1,6 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+GraphQL,GraphQL Basics,"Fill in the blank spaces with the words that apply:<br/>
+GraphQL creates __ and __ APIs, giving clients complete __ to ask for just the data they need.<br/>
+__ HTTP requests. Flexible data __. __ code to manage.","GraphQL creates fast and flexible APIs, giving clients complete control to ask for just the data they need.<br/>
+Fewer HTTP requests. Flexible data querying. Less code to manage.",5,text-type,"GraphQL creates __ and __ APIs, giving clients complete __ to ask for just the data they need.
+__ HTTP requests. Flexible data __. __ code to manage.",Wrong,,,,,,,

@@ -1,0 +1,2 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"MongoDB","Basics","What is the command to see more nehuristical options?","mongod --help | more",3,"code-type",,"Wrong answer",,,,,,,

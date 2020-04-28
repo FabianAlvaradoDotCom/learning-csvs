@@ -1,0 +1,29 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Router,"Complete the below code with the missing statements so we are able to implement React Router:
+<pre>function App() {
+	return (
+		&lt;div className=""App""&gt;
+			&lt;header className=""App-header"">React application&lt;/header&gt;
+		&lt;/div&gt;
+	);
+}
+
+export default App;</pre>","function App() {
+	return (
+		&lt;BrowserRouter&gt;
+			&lt;div className=""App""&gt;
+				&lt;header className=""App-header"">React application&lt;/header&gt;
+			&lt;/div&gt;
+		&lt;/BrowserRouter&gt;
+	);
+}
+
+export default App;",10,code-type,"function App() {
+	return (
+		<div className=""App"">
+			<header className=""App-header"">React application</header>
+		</div>
+	);
+}
+
+export default App;",Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893560#overview,,,,,,,,,,,,,

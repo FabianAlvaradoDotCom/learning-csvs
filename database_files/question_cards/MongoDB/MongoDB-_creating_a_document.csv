@@ -1,0 +1,3 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+MongoDB,Mongo Basics,"Imagine you switched to the DB ""shop"", enter the command to create the following document into the products collection created on the fly:<pre>name: Book
+price: 50</pre>","db.products.insertOne({name: ""Book"", price: 50})",1,code-type,,Wrong,,https://www.udemy.com/course/mongodb-the-complete-developers-guide/learn/lecture/11739124,,,,,

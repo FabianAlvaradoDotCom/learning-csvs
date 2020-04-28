@@ -1,0 +1,31 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+ReactTDD,Excercise,"Write a test that will execute all of this:<br/><br/>
+1. Create a counter that will have the initial value of <b>7</b>.<br/>
+2. Will set the state of the wrapper to <code>counter</code> = <b>counter value</b>.<br/>
+3. Will select and click the button ""<b>increment-button</b>""<br/>
+4. Will select the element that shows the count number ""<b>counter-display</b>""<br/>
+5. Finally will verify that the counter-display contains the counter updated to +1.","import React from 'react';
+import Enzyme, { shallow } from 'enzyme';
+import EnzymeAdapter from 'enzyme-adapter-react-16';
+import App from './App';
+
+Enzyme.configure({ adapter: new EnzymeAdapter() });
+
+test('Clicking button increments the counter on display', () => {
+	const counter = 7;
+	const wrapper = shallow(&lt;App />);
+	wrapper.setState({counter});
+	const increment_button = wrapper.find('[data-test=""increment-button""]');
+	increment_button.simulate('click');
+	const counter_display = wrapper.find('[data-test=""counter-display""]');
+	expect(counter_display.text()).toContain(counter + 1);
+});",,16,code-type,"import React from 'react';
+...
+...
+import App from './App';
+
+...
+
+test('Clicking button increments the counter on display', () => {
+	...
+});",Remember import statements,,https://www.udemy.com/course/react-testing-with-jest-and-enzyme/learn/lecture/10532338,,,,,,,,,,,,,

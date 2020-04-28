@@ -1,0 +1,9 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+CSS,Basics,"In a scenario with an element matching 2 different rules exactly the same, but with different value for the property, the style applied the last  predominates. That is because of the...<br/>
+<pre>p {
+  color: red;
+}
+
+p {
+  color: blue;
+}</pre>",Source order,,1,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started,,,,,,,

@@ -1,0 +1,10 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+SCSS,Animate background,"What is the code to animate the background of element <b>.animated_background</b> so it slides entirely from a solid white to a solid red on hover. Use colors ""white"" and ""red"", and a transition of 0.3 seconds.",".animated_background{
+	background-image: linear-gradient(120deg, white 0%, white 50%, red 50%);
+	background-size: 202%;
+	transition: all 0.3s;
+
+	&:hover{
+		background-position-x: 100%;
+	}
+}",,8,code-type,,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274528?start=1162,19:22,,,,,,,,,,,,

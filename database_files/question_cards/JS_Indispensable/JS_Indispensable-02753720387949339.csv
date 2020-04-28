@@ -1,0 +1,4 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"JS_Indispensable","Basics","What is Operator Associativity?","It is the order that the JS Engine calls same function operators in the same expression,
+it could be right to left or left to right, based on the established associativity, for
+instance a=b=c; !! ",3,,,"Wrong answer",,,,,,,

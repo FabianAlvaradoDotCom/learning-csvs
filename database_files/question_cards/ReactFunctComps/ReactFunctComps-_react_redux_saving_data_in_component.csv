@@ -1,0 +1,57 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Using Redux,"Update the code below so you create a component that updates the data contained on a reducer that will receive the action type ""Deposit"", and the payload 10 (number, not string).<br/>
+For storing the data, the reducer uses the property ""balance"", that is also how we refer to the total amount deposited.<br/>
+
+<pre>import React from ""react"";
+
+const DepositsPage = () =&gt; {
+	const clickDepositHandler = () =&gt; {
+		// Adds 10 to balance on every click
+	};
+
+	return (
+		&lt;&gt;
+			&lt;h1&gt;Balance: [replace by the balance]&lt;/h1&gt;
+			&lt;br /&gt;
+			&lt;button onClick={clickDepositHandler}&gt;Deposit&lt;/button&gt;
+		&lt;/&gt;
+	);
+};
+
+export default DepositsPage;</pre>","import React from ""react"";
+import { <b>useSelector, useDispatch</b> } from ""<b>react-redux</b>"";
+
+const DepositsPage = () =&gt; {
+	const balance = <b>useSelector(state =&gt; state.balance)</b>;
+	const dispatch = <b>useDispatch()</b>;
+
+	const clickDepositHandler = () =&gt; {
+		<b>dispatch({ type: ""Deposit"", payload: 10 })</b>;
+	};
+
+	return (
+		&lt;&gt;
+			&lt;h1&gt;Balance: {<b>balance</b>}&lt;/h1&gt;
+			&lt;br /&gt;
+			&lt;button onClick={clickDepositHandler}&gt;Deposit&lt;/button&gt;
+		&lt;/&gt;
+	);
+};
+
+export default DepositsPage;",21,code-type,"import React from ""react"";
+
+const DepositsPage = () => {
+	const clickDepositHandler = () => {
+		// Adds 10 to balance on every click
+	};
+
+	return (
+		<>
+			<h1>Balance: [replace by the balance]</h1>
+			<br />
+			<button onClick={clickDepositHandler}>Deposit</button>
+		</>
+	);
+};
+
+export default DepositsPage;",Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893560?start=966,,,,,,,,,,,,,

@@ -1,0 +1,4 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+MongoDB, Mongo Basics,How do we stop the Mongo Service in Windows? Describe the steps as <code>suggested</code>.,"1. First, start the command line as administrator.<br/>
+2. Then, execute this command: <code>net stop MongoDB</code>","1. First, ...
+2. Then, …",3,text-type,Wrong,,https://www.udemy.com/course/mongodb-the-complete-developers-guide/learn/lecture/11739120,,,,,

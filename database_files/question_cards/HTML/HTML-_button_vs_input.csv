@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Basics,What is the difference between a button and an input button element?,"The button accepts inner content that could be almost anything, and the input accepts only text.",,2,,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form,,,,,,,

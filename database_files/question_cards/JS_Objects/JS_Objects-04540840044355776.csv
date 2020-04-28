@@ -1,0 +1,2 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"JS_Objects","Basics","Object literals can be created on the fly and be passed to a function like any other value. Write an example of passing first_name:John, last_name: Doe to the create() function","create({first_name:""John"", last_name: ""Doe""});",5,"code-type",,"Wrong answer",,,,,,,

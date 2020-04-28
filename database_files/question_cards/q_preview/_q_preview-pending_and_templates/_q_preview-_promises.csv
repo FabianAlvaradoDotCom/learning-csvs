@@ -1,0 +1,6 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+JS_Useful_Methods,HTML - APIs,"What is the JS code you can use to insert HTML code in these positions: 'beforebegin', 'afterbegin',  'beforeend', 'afterend' and that is way faster than innerHTML?<br/> Write an example where you insert the following HTML string ""&lt;strong&gt;strong text&lt;/strong&gt;"" beforeend for the following element:<br/>
+<pre>var d1 = document.getElementById('one');
+d1.... ;</pre>","var d1 = document.getElementById('one');
+d1.insertAdjacentHTML('beforeend', '&lt;strong&gt;strong text&lt;/strong&gt;');",,3,code-type,"var d1 = document.getElementById('one');
+d1.... ;",Wrong,,https://youtu.be/PoRJizFvM7s?t=150,,,,,,,,,,,,,

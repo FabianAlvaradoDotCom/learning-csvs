@@ -1,0 +1,11 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+CSS,Basics,In the line 1 enter the definition of Pseudo-element and in the following lines write examples of pseudo-elements,"1. A pseudo-element acts as if you had added a whole new HTML element into the markup, rather than applying a class to existing elements. Pseudo-elements usually start with a double colon ::<br/><br/>
+<code>::after<br/>
+::before<br/>
+::first-letter<br/>
+::first-line<br/>
+::grammar-error<br/>
+::selection<br/>
+::spelling-error</code>","1. 
+
+// examples…",11,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements,,,,,,,

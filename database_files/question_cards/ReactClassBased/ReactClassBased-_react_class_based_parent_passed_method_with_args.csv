@@ -1,0 +1,89 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+ReactClassBased,Passing Methods,"Write missing code so the child can execute on button click the method provided by the parent ""<b>printMessage</b>"". The property passed by the parent is ""<b>method_passed_by_parent</b>"".<br/>
+In addition, the parent function should print the message given by the child, use ""<b>message</b>"" as the argument, and the message to be printed is ""<b>Inline bound message</b>"".
+<pre>// Parent
+class App extends Component {
+
+	<b>printMessage</b> = () => {
+		console.log(""Message from parent"");
+	}
+
+	render() {
+		return (
+			&lt;<b>ChildComponent</b>/>
+		);
+	}
+}
+
+// Child
+class ChildComponent extends Component{
+	render(){
+		return(
+			&lt;button>Execute parent's function&lt;/button>
+		);
+	}
+}</pre>","// Parent
+class App extends Component {
+
+	printMessage = (<b>message</b>) => {
+		console.log(<b>message</b>);
+	}
+
+	render() {
+		return (
+			&lt;ChildComponent method_passed_by_parent={<b>this.printMessage}</b>/>
+		);
+	}
+}
+
+// Child
+class ChildComponent extends Component{
+	render(){
+		return(
+			&lt;button onClick={<b class=""blue"">this.props.method_passed_by_parent</b><b>.bind(this, ""Message from Child"")</b>}>Execute parent's function&lt;/button>
+		);
+	}
+}","We have another way, where the arguments do not come from the parent but from the child itself:
+// Parent
+class App extends Component {
+
+	printMessage = (<b>message</b>) => {
+		console.log(<b>message</b>);
+	}
+
+	render() {
+		return (
+			&lt;ChildComponent method_passed_by_parent={this.printMessage.<b>bind(this, ""Inline bound message"")</b>}/>
+		);
+	}
+}
+
+// Child
+class ChildComponent extends Component{
+	render(){
+		return(
+			&lt;button onClick={<b>this.props.method_passed_by_parent</b>}>Execute parent's function&lt;/button>
+		);
+	}
+}",21,code-type,"// Parent
+class App extends Component {
+
+	printMessage = () => {
+		console.log(""Message from parent"");
+	}
+
+	render() {
+		return (
+			<ChildComponent/>
+		);
+	}
+}
+
+// Child
+class ChildComponent extends Component{
+	render(){
+		return(
+			<button>Execute parent's function</button>
+		);
+	}
+}",,,https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/8090888?start=168,,,,,,,,,,,,,

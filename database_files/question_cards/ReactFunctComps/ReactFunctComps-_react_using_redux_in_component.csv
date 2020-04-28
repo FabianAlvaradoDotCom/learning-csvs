@@ -1,0 +1,30 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Using Redux,"Update the code below so we can consume the data from the file ""reducer.js""
+
+<pre>import React from 'react';
+
+const HomePage = () =&gt; {
+	return(
+		&lt;div&gt;Balance: [replace this by balance]&lt;/div&gt;
+	);
+};
+
+export default HomePage;</pre>","import React from 'react';
+import { <b>useSelector</b> } from '<b>react-redux</b>';
+
+const HomePage = () =&gt; {
+	const balance = <b>useSelector</b>( state =&gt; state.balance);
+	return(
+		&lt;div&gt;Balance: {balance}&lt;/div&gt;
+	);
+}; 
+
+export default HomePage;",11,code-type,"import React from 'react';
+
+const HomePage = () => {
+	return(
+		<div>Balance: [replace this by balance]</div>
+	);
+};
+
+export default HomePage;",Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893560?start=898,,,,,,,,,,,,,

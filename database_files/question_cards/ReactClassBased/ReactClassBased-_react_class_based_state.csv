@@ -1,0 +1,45 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,reference_time4,,reference_time5,,reference_time6,
+ReactClassBased,State,"To the code below, add the statement that creates the initial state for ""<b>tracker: 20-clicks</b>"".
+
+<pre>import React, { Component } from 'react';
+
+class Person extends Component{
+
+	<code>[ .. your code here]</code>
+
+	render(){
+		return(
+			...
+		);
+	}
+}
+
+export default Person;</pre>","import React, { Component } from 'react';
+
+class Person extends Component{
+
+	<b>state = {
+		tracker: ""20-clicks""
+	}</b>
+
+	render(){
+		return(
+			...
+		);
+	}
+}
+
+export default Person;",,14,code-type,"import React, { Component } from 'react';
+
+class Person extends Component{
+
+	[ .. your code here]
+
+	render(){
+		return(
+			...
+		);
+	}
+}
+
+export default Person;",,,https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/13556100,,,,,,,,,,,,

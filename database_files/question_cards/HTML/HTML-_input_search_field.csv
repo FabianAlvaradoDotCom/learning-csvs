@@ -1,0 +1,4 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Forms,Write 3 characteristics of the search input element:,"1. Search fields are rendered with rounded corners and sometimes displays an ""X"" to clear the field.<br/>
+2. On devices with dynamic keyboards, the keyboard's enter key may read ""search"", or display a magnifying glass icon.<br/>
+3. The values of the search field can be automatically saved for auto-completion across multiple pages of the same website.",,3,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/HTML5_input_types,,,,,,,

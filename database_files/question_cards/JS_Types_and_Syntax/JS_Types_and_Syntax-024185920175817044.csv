@@ -1,0 +1,5 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"JS_Types_and_Syntax","Key Knowledge","Write the code to group the following declarations into a collection of statements so they represent the idea that they belong together, in a way that they CANNOT be used later in the global scope.<br>a = 10;<br>b = ""10"";","{
+    let a = 10; 
+    let b = ""10"";
+};",4,"code-type",,"Wrong answer, check your semicolons",,,,,,,

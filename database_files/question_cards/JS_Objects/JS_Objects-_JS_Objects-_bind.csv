@@ -1,0 +1,66 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Objects,"Bind, Call and Apply","Add the code that is missing to print to the console the below. <br/><br/>
+
+<i>""Person Full Name: The name of this guy is John Doe<br/>
+Person Age: 1980""</i>
+<pre>let person = {
+  first_name: ""John"",
+  last_name: ""Doe"",
+  age: 40,
+  current_year: 2020,
+  getFullname: function(){
+    return `The name of this guy is ${this.first_name} ${this.last_name}`;
+  },
+  getBirthYear: function(){
+    return this.current_year - this.age;
+  }
+}
+
+const printPersonCard = function(){
+  return `Person Full Name: ${this.getFullname()}
+Person Age: ${this.getBirthYear()}`;
+}
+
+...
+
+console.log(printJohnsCard());</pre>","let person = {
+  first_name: ""John"",
+  last_name: ""Doe"",
+  age: 40,
+  current_year: 2020,
+  getFullname: function(){
+    return `The name of this guy is ${this.first_name} ${this.last_name}`;
+  },
+  getBirthYear: function(){
+    return this.current_year - this.age;
+  }
+}
+
+const printPersonCard = function(){
+  return `Person Full Name: ${this.getFullname()}
+Person Age: ${this.getBirthYear()}`;
+}
+
+const printJohnsCard = printPersonCard.bind(person);
+
+console.log(printJohnsCard());",21,code-type,"let person = {
+  first_name: ""John"",
+  last_name: ""Doe"",
+  age: 40,
+  current_year: 2020,
+  getFullname: function(){
+    return `The name of this guy is ${this.first_name} ${this.last_name}`;
+  },
+  getBirthYear: function(){
+    return this.current_year - this.age;
+  }
+}
+
+const printPersonCard = function(){
+  return `Person Full Name: ${this.getFullname()}
+Person Age: ${this.getBirthYear()}`;
+}
+
+...
+
+console.log(printJohnsCard());",Check your functions vs arrow functions. Created on the fly?,,https://www.udemy.com/course/understand-javascript/learn/lecture/2237530,,,,,

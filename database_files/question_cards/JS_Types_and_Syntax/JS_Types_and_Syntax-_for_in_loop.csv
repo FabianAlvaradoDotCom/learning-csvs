@@ -1,0 +1,4 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Types_and_Syntax,For Loops,"Please write the ""For in"" loop code that iterates the properties of an object named ""Profile"" and that prints its value into the console, NOT THE NAMES. The name of the variable that will hold the iteratable element of the loop will be named ""x"".","for (let x in Profile){
+	console.log(Profile[x]);
+};",4,code-type,,Please verify your semicolons,,,,,,,

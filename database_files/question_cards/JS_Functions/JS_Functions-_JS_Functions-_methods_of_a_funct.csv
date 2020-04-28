@@ -1,0 +1,6 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Functions,"Bind, Call and Apply",What are the 3 methods that allow a function to change its <b>this</b> (Alphabetically)?,"1. apply()<br/>
+2. bind()<br/>
+3. call()",4,text-type,"1.
+2. 
+3. ","Related to ""this"".",,https://www.udemy.com/course/understand-javascript/learn/lecture/2237530,,,,,

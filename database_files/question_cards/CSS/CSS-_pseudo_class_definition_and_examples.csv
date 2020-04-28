@@ -1,0 +1,14 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+CSS,Basics,In the line 1 enter the definition of Pseudo-class and in the following lines write examples of pseudo-classes,"1. A pseudo-class is a selector that selects elements that are in a specific state.<br/><br/>
+<code>:active&emsp;:any-link&emsp;:blank&emsp;:checked&emsp;:current<br/>
+:default&emsp;:dir&emsp;:disabled&emsp;:empty&emsp;:enabled<br/>
+:first&emsp;:first-child&emsp;:first-of-type&emsp;:focus&emsp;:focus-visible<br/>
+:focus-within&emsp;:future&emsp;:hover&emsp;:indeterminate&emsp;:in-range<br/>
+:invalid&emsp;:lang&emsp;:last-child&emsp;:last-of-type&emsp;:left<br/>
+:link&emsp;:local-link&emsp;:is()&emsp;:not&emsp;:nth-child<br/>
+:nth-of-type&emsp;:nth-last-child&emsp;:nth-last-of-type&emsp;:only-child&emsp;:only-of-type<br/>
+:optional&emsp;:out-of-range&emsp;:past&emsp;:placeholder-shown&emsp;:playing<br/>
+:paused&emsp;:read-only&emsp;:read-write&emsp;:required&emsp;:right<br/>
+:root&emsp;:scope&emsp;:valid&emsp;:target&emsp;:visited</code>","1. 
+
+// examples…",11,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements,,,,,,,

@@ -1,0 +1,5 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+CSS,Basics,"Write the code to use a <code>General Sibling combinator</code> selector that will make red color all <code>xy</code> elements that are general siblings of any <code>abc</code> elements. <br/><br/>
+It is useful for selecting all <b>x</b> elements that come after <b>y</b> elements, even when there is some other element in the middle.","abc ~ xy{
+   color: red;
+ }",,3,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators,,,,,,,

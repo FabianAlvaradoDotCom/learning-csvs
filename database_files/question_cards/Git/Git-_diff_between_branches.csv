@@ -1,0 +1,4 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+Git,Diff,"Write the code to compare <b>between branches</b> <code>master</code> and <code>new_branch</code>.<br/>
+Compare using the command window and the compare tool.","git <b>diff</b> master new_branch<br/>
+git <b>difftool</b> master new_branch",,1,code-type,,incorrect,,https://www.udemy.com/course/git-complete/learn/lecture/1955638?start=163,,,,,,,,,,,,,

@@ -1,0 +1,32 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+CSS,CSS Animation,"Add the following animation to the div #anim. Do not use any shorthand, also write the entire code, and add the animations in the given order:<br/>
+  -Name: ""animacion""<br/>
+  -Duration: 3 seconds<br/>
+  -Repetitions: 3 times<br/>
+  -Timing: ""ease-out""<br/>
+  -Delay: 1s<br/>
+<br/>
+  The animation starts at 0%, and at 50% it will finish a transformation of 500px to the right, but at 100% it will be back to the begining.","#anim{
+    [previous propeties, do not touch]
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+  }
+  @keyframes animacion{
+    0%{
+      transform: translate(0);
+    }
+    50%{
+      transform: translateX(500px);
+    }
+    100%{
+      transform: translate(0);
+    }
+  }",20,code-type,"#anim{
+    [previous propeties, do not touch]    
+  }
+bla bla{
+   
+}",Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274406,,,,,

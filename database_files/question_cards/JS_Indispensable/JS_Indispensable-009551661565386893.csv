@@ -1,0 +1,19 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Indispensable,This,"Taking into account that the 'this' keyword' works differently if it is called within a method and if it is called within a normal function, what would the below print to the console:<br>
+
+<pre>var a = 'GLOBAL_VAR';
+
+var myObject = {
+  a: ""Property A"",
+  b: ""Property B"",
+  methodA: function() {
+    console.log(this.a);
+    function innerFunct() {
+      console.log(this.a);
+    }
+    innerFunct();
+  }
+}
+
+myObject.methodA();</pre>","Property A
+GLOBAL_VAR",2,,,Wrong answer,,https://www.udemy.com/the-complete-javascript-course/learn/v4/t/lecture/5869138,All video,,,,

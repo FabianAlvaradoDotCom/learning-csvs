@@ -1,0 +1,24 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Redux,"*Using arrow functions when possible.<br/>
+Write the code to create a simple reducer file, tha will have an ""initial_state"" object, containing the ""balance"" that will be 0.<br/>
+The reducer function will have 2 parameters, state, but in case of not receiving any, it will have a default value corresponding to the initial_value object.<br/>
+The second parameter is actions, and the reducer will behave differently in 3 situations:<br/>
+-If action type is ""Deposit"", it will add the passed value to the balance and return it as a new object.<br/>
+If ""Withdraw"", it will substract the value from balance and return it as a new object.<br/>
+And as third option, if there is no argument passed, it will by default return the state.","const initial_state = {
+	balance: 0
+};
+
+const reducer = (state = initial_state, action) =&gt; {
+	switch(action.type){
+		case ""Deposit"":
+			return {balance: state.balance + action.payload};
+		case ""Withdraw"":
+			return {balance: state.balance - action.payload};
+		default:
+			return state;
+	}
+};
+
+export default reducer;",19,code-type,"...
+export default reducer;",Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893560?start=590,,,,,,,,,,,,,

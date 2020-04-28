@@ -1,0 +1,59 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+SCSS,Animated Menu Icon,"Create an animated menu icon of 3 lines.<br/>
+The top and bottom lines should move up by 5 px on hover.
+The top and bottom lines should rotate to create a <b>X</b> on click (active), and the middle line should dissapear.
+<pre>&lt;div class=""icon""&gt;
+  &lt;span class=""icon__middle""&gt;&lt;/span&gt;
+&lt;/div&gt;</pre>",".icon{
+	width: 90px;
+	height: 90px;
+	background-color: gray;
+	text-align: center;
+	cursor: pointer;
+
+	&__middle{
+		position: relative;
+		margin-top: 42px;
+		transition: all 0.2s;
+
+		&,
+		&::before,
+		&::after{
+			width: 80px;
+			height: 5px;
+			background-color: black;
+			display: inline-block;
+		}
+
+		&::before,
+		&::after{
+			content: """";
+			position: absolute;
+			left: 0;
+			transition: all 0.2s;
+		}
+
+		&::before{ top: -30px}
+		&::after{ top: 30px}
+	}
+
+	&:hover &__middle::before{
+		transform: translateY(-5px);
+	}
+
+	&:hover &__middle::after{
+		transform: translateY(5px);
+	}
+
+	&:active &__middle{
+		background-color: transparent;
+	}
+
+	&:active &__middle::before{ 
+		transform: rotate(135deg) translate(20px, -20px);
+	}
+
+	&:active &__middle::after{
+		transform: rotate(-135deg) translate(20px, 20px);
+	}
+}",,52,code-type,Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274528?start=48,,,,,,,,,,,,,

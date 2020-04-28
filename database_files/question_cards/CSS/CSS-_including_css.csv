@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+CSS,Basics,"What is the code you would write to include a CSS in the head of your document? The CSS file would be located in the same folder and would have the name ""styles.css"".","&lt;link rel=""stylesheet"" href=""styles.css"" /&gt;",,1,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started,,,,,,,

@@ -1,0 +1,28 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+SCSS,Color Controlling,"Write a mixin with no arguments that will have 2 properties, <code>margin: 0 auto;</code> and <code>padding: 100px;</code>. The name of the mixin will be ""<b>center-100</b>"".<br/>
+Then, within the below rule <b>p</b>, insert the mixin.
+<pre>replaceme with Mixin
+
+p{
+	background: $color-primary;
+	width: 700px;
+
+	...
+}</pre>","@mixin center-100{
+	margin: 0 auto;
+	padding: 100px;
+}
+
+p{
+	background: $color-primary;
+	width: 700px;
+
+	@include center-100;
+}","replaceme with Mixin
+
+p{
+	background: $color-primary;
+	width: 700px;
+
+	...
+}",10,code-type,Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274458,00:52,,,,,,,,,,,,

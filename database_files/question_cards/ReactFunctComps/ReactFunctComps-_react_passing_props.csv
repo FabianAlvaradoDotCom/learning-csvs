@@ -1,0 +1,3 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Props,"How would you pass the variable ""<b>passed_prop</b>"" as a property of the below child component. Use the name ""<b>from_parent</b>"" to pass it.
+<pre>&lt;ChildComponent /&gt; </pre>",&lt;ChildComponent from_parent={passed_prop}/&gt; ,1,code-type,<ChildComponent /> ,Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893430#overview,,,,,,,,,,,,,

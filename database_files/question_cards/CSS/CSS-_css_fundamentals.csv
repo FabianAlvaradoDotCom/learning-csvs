@@ -1,0 +1,9 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Tricks,"What are the 3 pillars of web development?<br/>
+1. ?<br/>
+2. ?<br/>
+3. ?","1. Responsive Design<br/>
+2. Maintainability and Scalability<br/>
+3. Performance","1. 
+2. 
+3. ",3,text-type,Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274420,,,,,,,,,,,,,

@@ -1,0 +1,6 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Objects,Basics,What are the 3 types of properties that an object can have? Write them ordered by complexity.,"1. Primitives<br/>
+2. Objects<br/>
+3. Functions",4,text-type,"1. ___s
+2. ___s
+3. ___s",Wrong,,https://www.udemy.com/course/understand-javascript/learn/lecture/2237510,,,,,

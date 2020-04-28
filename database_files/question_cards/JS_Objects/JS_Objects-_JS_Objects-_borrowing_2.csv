@@ -1,0 +1,52 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+JS_Objects,This and Method Borrowing,"*Use arrow functions mainly, except by situatios that require function keyword.<br/>
+Borrowing a method by using the apply/call function method technique, add the missing method to ""person2"" that makes its full name, then print it to the console.<br/>
+<pre>let person = {
+  first_name: ""John"",
+  last_name: ""Doe"",
+  age: 40,
+  makeFullName: function(){
+    return this.first_name + "" "" + this.last_name;
+  }
+}
+
+let person2 = {
+  first_name: ""Mike"",
+  last_name: ""Wazawski"",
+  age: 40
+}
+
+...
+...</pre>","let person1 = {
+  first_name: ""John"",
+  last_name: ""Doe"",
+  age: 40,
+  makeFullName: function(){
+    return this.first_name + "" "" + this.last_name;
+  }
+}
+
+let person2 = {
+  first_name: ""Mike"",
+  last_name: ""Wazawski"",
+  age: 40
+}
+
+person2.makeFullName = person1.makeFullName.apply(person2);
+console.log(person2.makeFullName);",17,code-type,"let person = {
+  first_name: ""John"",
+  last_name: ""Doe"",
+  age: 40,
+  makeFullName: function(){
+    return this.first_name + "" "" + this.last_name;
+  }
+}
+
+let person2 = {
+  first_name: ""Mike"",
+  last_name: ""Wazawski"",
+  age: 40
+}
+
+...
+...",Wrong answer,,https://www.udemy.com/the-complete-javascript-course/learn/v4/t/lecture/5869138?start=446,07:26,https://www.udemy.com/course/understand-javascript/learn/lecture/2237530?start=548,09:08,,,,,,,,,,

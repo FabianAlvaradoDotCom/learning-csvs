@@ -1,0 +1,30 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Other,HTML - APIs,Name 15 HTML APIs alphabetically ordered,"Canvas<br/>
+Console<br/>
+Constraint validation<br/>
+DOM<br/>
+Drag&Drop<br/>
+Fetch<br/>
+History<br/>
+NavigationTiming/Performance<br/>
+Notifications<br/>
+PointerEvents<br/>
+Resize Observer<br/>
+ValidityState<br/>
+WAAPI<br/>
+WebGL<br/>
+WebSockets<br/>",15,text-type,"C
+C
+C
+D
+D
+F
+H
+N
+N
+P
+R
+V
+W
+W
+W",Wrong,,,,,,,

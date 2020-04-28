@@ -1,0 +1,2 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"MongoDB","Basics","In a Replica Set, what is the role of the Arbiter","It does not contain any data, its sole purpose in life is to break the tie on an election on which secondary db becomes primary when the primary fails",3,,,"Wrong answer",,,,,,,

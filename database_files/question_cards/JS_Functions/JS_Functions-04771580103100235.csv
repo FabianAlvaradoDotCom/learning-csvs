@@ -1,0 +1,19 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Functions,This,"If you have a function (not a method) nested within 5 levels of other functions and then from there you call 'this.', what object/element is being referenced? Like in this example:<br>
+<pre>function a() {
+  function b() {
+    function c() {
+      function d() {
+        function e() {
+          console.log(this);
+        }
+        e();
+      }
+      d();
+    }
+    c();
+  }
+  b();
+}
+
+a();</pre>",The Global Object,1,,,Wrong answer,,https://www.udemy.com/the-complete-javascript-course/learn/v4/t/lecture/5869138,All video,,,,

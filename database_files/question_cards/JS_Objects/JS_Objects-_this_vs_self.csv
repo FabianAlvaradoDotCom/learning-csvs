@@ -1,0 +1,26 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Objects,This,"Taking into account that in <b>methods</b> the keyword <b>""this""</b> points to the object containing it, and in <b>functions</b> it points to the Global Object; fix the below code so the second console command prints 2.<br/>
+<pre>let my_object = {
+  number_1: 1,
+  printNumber1: function(){
+    console.log(this.number_1);
+    let addAndPrint1 = function(){
+      console.log(this.number_1 + 1);
+    }
+    addAndPrint1();
+  }
+}
+
+my_object.printNumber1();</pre>","let my_object = {
+  number_1: 1,
+  printNumber1: function(){
+    let self = this;
+    console.log(self.number_1);
+    let addAndPrint1 = function(){
+      console.log(self.number_1 + 1);
+    }
+    addAndPrint1();
+  }
+}
+
+my_object.printNumber1();",12,code-type,Try to type it all for practice...,"Remeber ""self""",,https://www.udemy.com/course/understand-javascript/learn/lecture/2237526?start=742,12:22,,,,

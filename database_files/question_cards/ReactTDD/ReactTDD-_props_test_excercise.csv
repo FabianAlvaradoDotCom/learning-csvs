@@ -1,0 +1,36 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+ReactTDD,Excercise,"Complete the code below with the missing pieces so we test that the property ""<b>toggle = false</b>"" does not return a warning.
+<pre>import React from 'react';
+...
+...
+...
+import ChildComponent from './ChildComponent'
+
+...
+
+('Checking PropTypes', () => {
+  ...                
+});</pre>","import React from 'react';
+import Enzyme, { shallow } from 'enzyme';
+import EnzymeAdapter from 'enzyme-adapter-react-16';
+import <b>checkPropTypes</b> from 'check-prop-types';
+
+import ChildComponent from './ChildComponent'
+
+Enzyme.configure({ adapter: new EnzymeAdapter()});
+
+test('Checking PropTypes', () => {
+	const <b class=""green"">expected_props</b> = { toggle: false }
+	const props_error = <b>checkPropTypes</b>(ChildComponent.<b>propTypes</b>, <b class=""green"">expected_props</b>, 'props', ChildComponent<b>.name</b>);
+	expect(props_error).toBeUndefined();                    
+});",,13,code-type,"import React from 'react';
+...
+...
+...
+import ChildComponent from './ChildComponent'
+
+...
+
+('Checking PropTypes', () => {
+  ...                
+});",Remember import statements,,https://www.udemy.com/course/react-testing-with-jest-and-enzyme/learn/lecture/10532572?start=187,,,,,,,,,,,,,

@@ -1,0 +1,4 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Other,Basics,"What does Eval() do? 
+use the below as an example: <pre>eval(""5 + 5"");</pre>","If the argument is an expression, eval() evaluates the expression. If the argument is one or
+more JavaScript statements, eval() executes the statements.",6,code-type,Algo,Wrong answer.,,,,,,,

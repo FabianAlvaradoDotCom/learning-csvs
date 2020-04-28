@@ -1,0 +1,7 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Forms,"Explain what<code>:required</code> pseudo-class is...<br/><br/>
+
+1. What elements can use it?<br/>
+2. How to make an element to match it?","1. <code>input</code>, <code>select</code>, and <code>textarea</code>.<br/>
+2. The element should have the boolean attribute ""required"" in order to acquire the pseudo-class.","1.
+2.",2,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/UI_pseudo-classes,,,,,,,

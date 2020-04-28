@@ -1,0 +1,31 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Indispensable,Hoisting,"Please describe the Javascript Engine phases (that include the ""Hoisting""). Please execute in the console the code below so you confirm your statements:<br>
+<pre>console.log(order_determiner);
+
+function order_determiner(){
+    return `This is my FUNC order determiner 1. If overrides works during the
+    compile phase this will print nothing`;
+};
+
+function order_determiner(){
+    return `This is my FUNC order determiner 2. If 'VAR's are hoisted FIRST
+    and just then 'FUNCS's, this will be printed first line in the console`;
+};
+
+var order_determiner = `This is my VAR order determiner 1. If overrides works
+    during the compile phase this will print nothing`;
+
+var order_determiner = `This is my VAR order determiner 2. If 'FUNC's are
+    hoisted FIRST and just then 'VAR's, this will print 'undefined'
+    as the first line in the console`;
+
+console.log(order_determiner);</pre>","There are two phases in Javascript Engine.<br/><br/>
+1. In the first phase, ""Creation/Compiling Phase"" the Javascript Engine creates <b>the global object</b> and the variable <code>this</code>.<br/>
+Then in this order: Takes all Declared Variables <code>var x...</code>(not the ones only initilized x = ...) and reserves a space in memory for them assigning the value of <b>undefined</b>.<br/>
+Then all DECLARED FUNCTIONS, not just the name but the entire declared functions are saved into memory (notice that the Engine is not reserving space for Function Expressions, they are taken like variable declarations because of the word ""var"" hence they are stored in memory and assigned <b>undefined</b>).<br/><br/>
+2. The second phase is the code execution, in the order it was written, where the value asignment happens and the varibles that were assigned <b>undefined</b> value receive their real values.<br/>The following code prints <b>undefined</b>:<br/><br/>
+<pre>m();
+function m (){
+   console.log(x);
+};
+var x = 50;</pre>",14,text-type,,Wrong answer,,https://www.youtube.com/embed/Bv_5Zv5c-Ts?start=2210,36:50:00,https://www.youtube.com/embed/iibPWeXID8c,Entire video,,

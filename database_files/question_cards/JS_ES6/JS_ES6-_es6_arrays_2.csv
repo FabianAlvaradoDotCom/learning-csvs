@@ -1,0 +1,8 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,reference_time4,,reference_time5,,reference_time6,
+Javascript,ES6 Arrays,What is the ES6 Array method that returns <b>the index</b> of the first element that returns true when compare all elements of given array vs an expression?,"<b>.findIndex()</b>
+
+","<span class=""comments"">Run this on your browser</span>
+
+let some_array = [5, 5, 3, 4, ""cuatro"", 6, 7, 2, 9, 1];
+
+let found_index = some_array.<b>findIndex</b>(element => element === ""cuatro"");",1,code-type,,Wrong,,https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/6034318,,,,,,,,,,,,

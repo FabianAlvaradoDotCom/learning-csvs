@@ -1,0 +1,3 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+CSS,Selectors,"Describe the Descendant Selectors, then in the next line write an example of a descendant selector, any ""p"" inside of any ""div""","The elements in the selector are separated by a blank space. This means that the specified CSS styles inside the curly braces will be applied to the last element of the right that is inside of the element at the left and so on. Example of Descendant Selector: 
+<pre>div p { color: #ff0000;}</pre>",6,text-type,,Wrong answer,,,,,,,,,,,,,,,

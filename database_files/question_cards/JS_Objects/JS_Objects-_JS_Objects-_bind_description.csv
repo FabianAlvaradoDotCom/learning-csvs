@@ -1,0 +1,2 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Objects,"Bind, Call and Apply","Write the definition of ""bind()""","It creates a new function that, when called, has its <b>this</b> keyword set to the provided argument.",2,text-type,,Error,,https://www.udemy.com/course/understand-javascript/learn/lecture/2237530,,,,,

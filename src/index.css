@@ -1711,6 +1711,14 @@ main.internal-pages#quiz-page #question-container #question{
   user-select: text;
 }
 
+#question-container #question ol{
+  margin-top: 10px;
+    margin-bottom: 10px;
+}
+#question-container #question ol li{
+  list-style-position: inside;
+}
+
 main.internal-pages#quiz-page #question-container #question *,
 main.internal-pages#quiz-page #question-container #question * *,
 main.internal-pages#quiz-page #question-container #question * * *{

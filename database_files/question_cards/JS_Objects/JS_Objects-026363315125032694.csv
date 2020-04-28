@@ -1,0 +1,8 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"JS_Objects","Nesting Objects","Write the missing line of code so the last line of the object does not throw an error:<br>   var car = {};<br>   car.trunk = {};<br>   _____________________;<br>   car[boxOfAllComponents].engine = ""8 cylinder"";","var car = {};
+car.trunk = {};
+var boxOfAllComponents = ""trunk"";
+car[boxOfAllComponents].engine = ""8 cylinder"";",4,"code-type","var car = {};
+car.trunk = {};
+_____________________;
+car[boxOfAllComponents].engine = ""8 cylinder"";","Wrong answer, check your semicolons",,"https://app.pluralsight.com/player?course=javascript-from-fundamentals-to-functional-js&author=bianca-gandolfo&name=javascript-from-fundamentals-to-functional-js-m4&clip=1&mode=live","02:34",,,,

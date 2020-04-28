@@ -1,0 +1,20 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+SCSS,Combination of hovered and unhovered elements,"Write the SCCS code to make that when the container <b>""group""</b> is hovered, any child element that is not hovered get smaller, but the specific hovered element grows:<br/>
+<pre>&lt;div class=""group""&gt;
+	&lt;div class=""group__item""&gt;item-1&lt;/div&gt;
+	&lt;div class=""group__item""&gt;item-2&lt;/div&gt;
+	&lt;div class=""group__item""&gt;item-3&lt;/div&gt;
+&lt;/div&gt;</pre>",".group{
+	&__item{ <span class=""comments"">// converts to .group__item</span>
+		font-size: 2rem;
+		transition: transform .3s;
+
+		&:hover{ <span class=""comments"">// converts to .group__item:hover</span>
+			transform: scale(1.1);
+		}
+	}
+
+	&:hover &__item:not(:hover){  <span class=""comments"">// converts to .group:hover .group__item:not(:hover)</span>
+		transform: scale(0.5);
+	}
+}",,13,code-type,,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274496?start=810,13:30,,,,,,,,,,,,

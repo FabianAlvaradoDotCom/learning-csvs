@@ -1,0 +1,15 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"WAAPI","CSS Animation","Create a spinner with pure css code (detail later)...","#anim{    
+    width: 25px; height: 25px;
+    border-top: 2px solid #000;
+    border-right: 2px solid transparent;
+    border-radius: 50%;
+    animation: spinner 500ms linear infinite;
+    filter:blur(0.5px);
+}
+
+@keyframes spinner{
+    to {
+        transform: rotate(360deg);
+    }
+}",14,"code-type",,"Wrong answer",,"https://app.pluralsight.com/player?course=add-dev-console-to-your-app-with-javascript-increase-productivity&author=carlos-saloio&name=add-dev-console-to-your-app-with-javascript-increase-productivity-m5&clip=2&mode=live","2:42",,,,

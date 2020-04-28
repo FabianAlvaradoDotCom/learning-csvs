@@ -1,0 +1,8 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Basics,"Enter the code to insert an iframe that has these characteristics:<br/><br/>
+-The source is https://www.google.com.<br/>
+-500 px of width and height.<br/>
+-No frameborder.<br/>
+-Allows full screen.<br/>
+-Safe content.","&lt;iframe src=""https://www.google.com"" width=""500"" height=""500"" frameborder=""0"" allowfullscreen sandbox&gt; 
+&lt;/iframe&gt;",,11,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies,,,,,,,

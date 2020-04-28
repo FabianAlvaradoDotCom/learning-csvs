@@ -1,0 +1,6 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,reference_time4,,reference_time5,,reference_time6,
+ReactClassBased,Basics,"How do you access to the 2 ways of receiving properties on React Class Based Components?Write the code of how would you consume the properties below
+<pre>1. &lt;Person <b>some_data=""my property""</b> />
+2. &lt;Person><b>my property</b>&lt;/Person></pre>","1. this.props.<b>some_data</b>
+2. this.props.<b>children</b>",,10,code-type,"1. ?
+2. ?",,,https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/8090872,,,,,,,,,,,,

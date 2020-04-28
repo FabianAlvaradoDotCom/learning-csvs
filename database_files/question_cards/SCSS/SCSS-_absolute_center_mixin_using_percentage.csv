@@ -1,0 +1,7 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+SCSS,Absolute center,"Write a mixin named ""absolute-center"" that centers horizontally and vertically an element.","@mixin absolute-center{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform:translate(-50%, -50%);
+}",// a  mixin…,5,code-type,Not ready,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274530?start=340,05:40,,,,,,,,,,,,

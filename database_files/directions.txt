@@ -1,0 +1,5 @@
+-The words if subjects in the list (subjects_to_pick_from.csv) should be written exactly as the subjects in the question cards.
+-You can have as many items in the subjects in the list (subjects_to_pick_from.csv) as you want, they will be shown in the home for you to choose the topic.
+-Do not change the extension of subjects_to_pick_from.csv, it should not be converted to Excel or anything.
+-The names of the card files should be like 'math-elipse_.csv', which are the exact subject and some descriptive name with no spaces but underscores plus the extension '.csv'.
+-The card names should not be duplicated.

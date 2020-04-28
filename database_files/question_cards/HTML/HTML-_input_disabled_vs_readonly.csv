@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Forms,What is the difference between disabled and readonly attributes of an input?,"Readonly elements cannot be edited but their data is sent with the form, disabled elements cannot be edited and their data is ommited.",,3,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/The_native_form_widgets,,,,,,,

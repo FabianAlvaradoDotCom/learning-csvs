@@ -5,11 +5,11 @@ export const server_url = "https://fabian-learning.herokuapp.com";
 
 export const application_cards_path =
 //"C:/SmartyPants_database/question_cards/";
-"/Users/FabianAlvarado/Documents/Learning/SmartyPants_database/question_cards/";
+"/Users/FabianAlvarado/Documents/Learning/practicing_tool/database_files/question_cards/";
 
 
 export const application_diagrams_path = //"C:/SmartyPants_database/diagrams/";
-"/Users/FabianAlvarado/Documents/Learning/SmartyPants_database/diagrams/";
+"/Users/FabianAlvarado/Documents/Learning/practicing_tool/database_files/diagrams/";
 
 export const subjects_list_file_name = "subjects_to_pick_from.csv";
 
@@ -77,9 +77,3 @@ export const formattingDateNoSeconds = ( milliseconds_date ) => {
     return milliseconds_date;
   }
 };
-
-
-
-  
-
-  

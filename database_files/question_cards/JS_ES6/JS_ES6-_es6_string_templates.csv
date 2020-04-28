@@ -1,0 +1,3 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+Javascript,ES6 String Templates,"What is the method that returns true if a string starts with an specific charater? Write the code where you apply the required method and also returns <b>true</b>, as a requirement, the method should not have an empty string as a parameter.
+<pre>`Tomorrow morning`</pre>",`Tomorrow morning`.startsWith('T');,2,code-type,,Wrong,,https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/6034306?start=346,,,,,,,,,,,,,

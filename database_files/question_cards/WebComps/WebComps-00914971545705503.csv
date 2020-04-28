@@ -1,0 +1,8 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+WebComps,Basics,What are the web standards brought by Web Components?<br> <br> <br> <br> ,"1. Custom elements.
+2. Shadow DOM.
+3. HTML Templates.
+4. HTML Imports",5,text-type,"1.
+2.
+3.
+4.",,,https://app.pluralsight.com/player?course=vanilla-web-components-practical-guide&author=leon-revill&name=vanilla-web-components-practical-guide-m1&clip=0&mode=live,All video,,,,

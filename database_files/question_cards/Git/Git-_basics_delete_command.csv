@@ -1,0 +1,3 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+Git,Remove,"How do you remove a file tracked by git? Remove <b>text.txt</b><br/>
+*Remember that this does not actually remove the file, just <b>moves the deletion to staging area</b> to be commited later.",git <b>rm</b> text.txt,,1,code-type,,incorrect,,https://www.udemy.com/course/git-complete/learn/lecture/1948562?start=143,,,,,,,,,,,,,

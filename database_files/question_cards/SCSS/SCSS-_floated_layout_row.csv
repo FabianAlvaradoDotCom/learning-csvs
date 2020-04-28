@@ -1,0 +1,96 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+SCSS,Floated Row,"Write the HTML and SCSS code to create a <b>horizontally centered row of 2 floated columns</b>. Remember to incude the <b>""clearfix hack""</b>. In addition, the columns are separated by a <b>""$gutter""</b> SCSS variable<br/>
+<pre>-HTML-
+&lt;div class=""row""&gt;
+	&lt;div class=""col-1-of-2""&gt;...&lt;/div&gt;
+	??
+&lt;/div&gt;
+
+-SCSS-
+.row{
+	max-width: 1200px;
+	??
+	background-color: $some-gray;
+  
+	?? Give a bottom margin to all but last row 
+		margin-bottom: 3rem;
+	}
+
+	?? { // Clearfix hack
+		??
+		??
+		??
+	}
+
+	.col-1-of-2{
+		??
+		??
+		background-color: red;
+
+		?? Give a right margin ($gutter) to all but last column
+			margin-right: $gutter;
+		}
+	}
+}</pre>","-HTML-
+&lt;div class=""row""&gt;
+	&lt;div class=""col-1-of-2""&gt;...&lt;/div&gt;
+	&lt;div class=""col-1-of-2""&gt;...&lt;/div&gt;
+&lt;/div&gt;
+
+-SCSS-
+.row{
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: $some-gray;
+  
+	&:not(:last-child){
+		margin-bottom: 3rem;
+	}
+
+	&::after{ // Clearfix hack
+		content: """";
+		clear: both;
+		display: block;
+	}
+
+	.col-1-of-2{
+		float: left;
+		width: calc((100% - #{$gutter})/2);
+		background-color: red;
+
+		&:not(:last-child){
+			margin-right: $gutter;
+		}
+	}
+}","-HTML-
+<div class=""row"">
+	<div class=""col-1-of-2"">...</div>
+	??
+</div>
+
+-SCSS-
+.row{
+	max-width: 1200px;
+	??
+	background-color: $some-gray;
+  
+	?? Give a bottom margin to all but last row 
+		margin-bottom: 3rem;
+	}
+
+	?? { // Clearfix hack
+		??
+		??
+		??
+	}
+
+	.col-1-of-2{
+		??
+		??
+		background-color: red;
+
+		?? Give a right margin ($gutter) to all but last column
+			margin-right: $gutter;
+		}
+	}
+}",30,code-type,Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274486?start=984,16:24,,,,,,,,,,,,

@@ -1,0 +1,10 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Basics,What are the 5 elements we use for representing code in a webpage? Order them alphabetically:,"1. &lt;code&gt;
+2. &lt;kbd&gt;
+3. &lt;pre&gt;
+4. &lt;samp&gt;
+5. &lt;var&gt;","1.
+2.
+3.
+4.
+5.",6,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting,,,,,,,

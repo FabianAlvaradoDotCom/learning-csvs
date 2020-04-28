@@ -1,0 +1,4 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+DataStructures,Stack,What is a <b>Hash Table</b> structure?,"It is used to implement associative arrays or mapping of key-value pairs. It is a very efficient way to store data because performs operations fast.<br/>
+In javascript we have the Object map.<br/>
+It stores the data in the order it has been inserted, and points the keys to a hash (often a number) that references abubked where the data is saved into.",,1,text-type,,,,https://youtu.be/t2CEgPsws3U?t=279,,,,,,,,,,,,,

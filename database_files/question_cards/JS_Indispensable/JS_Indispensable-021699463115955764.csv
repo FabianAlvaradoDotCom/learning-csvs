@@ -1,0 +1,7 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Indispensable,This - Function Constructor - Instantiation,"If calling a Declared Function or Function Expression (a regular local/global function, not as a Method) by default creates a new execution context and points ""this"" to the Global object, then why when we create a Function Constructor ""this"" then points to the object we are creating?
+<pre>var Person = function(name, age){
+  this.name = name;
+  this.age = age;
+}
+var john = new Person('John Doe', 40);</pre>","Because with the Function Constructor, in this case when we create an object we are using the ""new"" operator to indicate that ""this."" now points to our new empty object we are creating.",2,,,Wrong answer,,https://www.udemy.com/the-complete-javascript-course/learn/v4/t/lecture/5869182?start=275,04:35,,,,

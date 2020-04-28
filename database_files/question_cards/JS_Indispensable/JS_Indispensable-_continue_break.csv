@@ -1,0 +1,6 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+Javascript,ES6 Arrays and Loops,"Describe how the below statements affect a <b>For</b> Loop.
+<pre>continue: 
+break: </pre>","<b>continue</b>: Makes an iteration of a For Loop to be ommited and passes right to the nex iteration.
+<b>break</b>: Stops and exist the entire For Loop.",1,code-type,"continue: 
+break: ",Wrong,,https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/6034318?start=271,,,,,,,,,,,,,

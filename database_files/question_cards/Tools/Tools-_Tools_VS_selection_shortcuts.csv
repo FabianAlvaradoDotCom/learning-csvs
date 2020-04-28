@@ -1,0 +1,6 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+Additional Tools,VSCode,"Write the 2 methods to do multiple selection with VS: <br/>
+1. Adds secondary cursors for manually selecting non-consecutive text:<br/>
+2. Having selected some text, selects the next instance of the current selection:","1. Adds secondary cursors for manually selecting non-consecutive text: <b>Alt + Click</b><br/>
+2. Having selected some text, selects the next instance of the current selection: <b>Ctrl + D</b>","1. Adds secondary cursors for manually selecting non-consecutive text:
+2. Having selected some text, selects the next instance of the current selection:",3,text-type,Wrong,,https://code.visualstudio.com/docs/editor/codebasics,,,,,,,,,,,,,

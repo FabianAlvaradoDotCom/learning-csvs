@@ -1,0 +1,7 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"JS_Objects","Basics","Write an example of Object Constructor, ""person"", that holds name, last_name and age. Then create an instance of the object that will be ""programmer"" John Doe 40","function person(first, last, age) {
+   this.first_name = first;
+   this.last_name = last;
+   this.age = age;
+};
+var programmer = new person(""John"",""Doe"",""40"");",7,"code-type",,"Wrong answer",,,,,,,

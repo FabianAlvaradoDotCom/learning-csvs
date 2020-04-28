@@ -1,0 +1,10 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Functions,Array Methods,"Using one of the array methods:<br>1.- Create the declared function ""getArray"" that takes the data passed as argument and returns a TRUE array out of it. The array will have more than 1 item.<br>2.- Print to the console the result of calling the getArray function when you pass these arguments: one, two, three, four.<br>3.- Print to the console the result of calling the getArray function when you pass this argument: transmission.<br> ","function getArray(){
+    if(arguments.length > 1){
+        return Array.from(arguments);
+    }else{
+        return Array.from(arguments[0]);
+    };    
+};
+console.log(getArray(""one"", ""two"", ""three"", ""four""));
+console.log(getArray(""transmission""));",9,code-type,,"Wrong answer, check your semicolons",,https://www.udemy.com/course/understand-javascript/learn/lecture/2237528,,,,,

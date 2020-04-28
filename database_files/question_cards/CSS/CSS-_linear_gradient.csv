@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+CSS,CSS Basics,"Write the code to show a linear gradient from right to left, from rgb red 50% opacity to rgb blue 50% opacity.","background-image: linear-gradient(to left, rgba(255,0,0,0.5), rgba(0,0,255,0.5));",2,code-type,,Wrong,,,,,,,

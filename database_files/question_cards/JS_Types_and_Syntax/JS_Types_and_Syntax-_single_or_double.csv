@@ -1,0 +1,4 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Types_and_Syntax,Coding style,"Write ""single quotes"" or ""double quotes"" to answer what type to use in the cases below:<br>-For internal strings, like names of properties.<br>-For external strings, like html templates.","Single quotes
+Double quotes",2,text-type,"_____ quotes
+_____ quotes","Wrong answer, checck commas and periods, and letter casing",,https://app.pluralsight.com/player?course=javascript-good-parts&author=douglas-crockford&name=javascript-good-parts-m2&clip=3&mode=live,02:30,,,,

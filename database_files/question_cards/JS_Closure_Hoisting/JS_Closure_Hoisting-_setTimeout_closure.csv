@@ -1,0 +1,17 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+JS_Closure_Hoisting,Closures,"Create a simple closure with these characteristics:<br/><br/>
+
+* Use only arrow functions.<br/>
+1. The closure function should be stored into the constant ""myClosure"".<br/>
+2. It stores a let variable named ""message"" with the value ""Hello"".<br/>
+3. It runs a setTimeout of 3 seconds that prints the value of message + "" from inside"".<br/>
+4. It prints the ""message"" variable + "" from outside"" from outside the setimeout.<br/>
+5. It executes myClosure();","const myClosure = () => {
+  let message = ""Hello"";
+  setTimeout( () => {
+    console.log(message + "" from inside"");
+  }, 3000);
+  console.log(message + "" from outside"");
+}
+
+myClosure();",,10,code-type,Wrong,,https://www.udemy.com/course/understand-javascript/learn/lecture/2258228,,,,,,,

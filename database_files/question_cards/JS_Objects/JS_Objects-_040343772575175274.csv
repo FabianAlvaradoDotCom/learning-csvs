@@ -1,0 +1,2 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Objects,JavaScript Key,"Imagine you have a blank webpage open in Chrome, what hapens when you write 'this' to the console in your browser and hit enter?","It returns the Global Object, which in fact is the Window object of the browser",5,text-type,,Wrong,,https://www.udemy.com/course/understand-javascript/learn/lecture/2237450,,,,,

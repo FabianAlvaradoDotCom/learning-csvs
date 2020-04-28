@@ -1,0 +1,18 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Life cycle,"Please write what would be the description for the different useEffect statements. In the same line, enter description or associate them with class based components lifecycle.<br/><br/>
+<pre>1. useEffect(() =&gt; { ... }, <b>[]</b>); // Equivalent to ?
+2. useEffect(() =&gt; { ... }); // Equivalent to ?
+3. useEffect(() =&gt; { ... },[<b>props.name</b>]); // Equivalent to ?
+4. useEffect(() =&gt; { <b>return ()=> {...}</b> },<b>[]</b>); // Equivalent to ?
+5. useEffect(() =&gt; { <b>return ()=> {...}</b> },[<b>props.name</b>]); // Equivalent to ?
+6. useLayoutEffect(() =&gt; { ... }, <b>[]</b>); // Equivalent to ?</pre>","1. useEffect(() =&gt; { ... }, <b>[]</b>); // Equivalent to ""Component Did Mount""
+2. useEffect(() =&gt; { ... }); // Executes after every render cycle of component.
+3. useEffect(() =&gt; { ... },[<b>props.name</b>]); // Executes every time that the dependency changes.
+4. useEffect(() =&gt; { <b>return ()=> {...}</b> },<b>[]</b>); // Equivalent to componentWillUnmount
+5. useEffect(() =&gt; { <b>return ()=> {...}</b> },[<b>props.name</b>]); // Code of the returned anonymous function will execute before the main function every time the dependency changes. The returned anonymous function will start executing on the second render cycle.
+6. <b>useLayoutEffect</b>(() =&gt; { ... }, <b>[]</b>); // Equivalent to ""Component Will Mount""",10,code-type,"1. useEffect(() => { ... }, []); // Equivalent to ?
+2. useEffect(() => { ... }); // Equivalent to ?
+3. useEffect(() => { ... },[props.name]); // Equivalent to ?
+4. useEffect(() => { return ()=> {...} },[]); // Equivalent to ?
+5. useEffect(() => { return ()=> {...} },[props.name]); // Equivalent to ?
+6. useLayoutEffect(() => { ... }, []); // Equivalent to ?",Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893490#overview,,,,,,,,,,,,,

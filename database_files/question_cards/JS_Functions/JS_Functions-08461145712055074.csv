@@ -1,0 +1,6 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"JS_Functions","Function Methods - Parameters vs Arguments","The function.length is a property of a function object, and indicates how many arguments the function expects, it is to say the number of formal parameters. This number excludes the rest parameter and only includes parameters before the first one with a default value like ""b"" in function(a, b = 1, c).<br>  <br>1.- Create a declared function ""countingParams"" that has these parameters: uno, dos, tres, cuatro; and that returns the number ar arguments passed to the function.<br> <br>2.- Create a line of code so you invoke the created function and prints the number of arguments received, but pass no argument.<br> <br>3.- Create a line of code so you invoke the created function and print the number of expected arguments (or parameters).","function countingParams(uno, dos, tres, cuatro){
+    return arguments.length;
+};
+console.log(countingParams());
+console.log(countingParams.length);",5,"code-type",,"Wrong answer, check your semicolons",,,,,,,

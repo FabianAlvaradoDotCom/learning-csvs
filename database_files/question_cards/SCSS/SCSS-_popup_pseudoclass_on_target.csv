@@ -1,0 +1,43 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+SCSS,Target pseudo-class,"Writhe the code so the paragraph is <code>display: none</code> until we click on the link, remember to use <b>target</b> pseudo-class.
+<pre>HTML
+&lt;p class=""main-popup"" id=""main-popup""&gt;...&lt;/p&gt;
+&lt;a href=""#main-popup"" class=""popup-opener""&gt;Open popup&lt;/a&gt;
+
+CSS
+.main-popup{
+	display: none;
+	background-color: green;
+	height: 80px;
+
+	...{
+		display: block;
+	}
+}
+</pre>","HTML
+&lt;p class=""main-popup"" id=""main-popup""&gt;...&lt;/p&gt;
+&lt;a href=""#main-popup"" class=""popup-opener""&gt;Open popup&lt;/a&gt;
+
+CSS
+.main-popup{
+	display: none;
+	background-color: green;
+	height: 80px;
+
+	&:target{
+		display: block;
+	}
+}","HTML
+<p class=""main-popup"" id=""main-popup"">...</p>
+<a href=""#main-popup"" class=""popup-opener"">Open popup</a>
+
+CSS
+.main-popup{
+	display: none;
+	background-color: green;
+	height: 80px;
+
+	...{
+		display: block;
+	}
+}",14,code-type,Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274532?start=112,01:52,,,,,,,,,,,,

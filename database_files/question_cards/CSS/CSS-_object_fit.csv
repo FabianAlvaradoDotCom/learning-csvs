@@ -1,0 +1,15 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Images and Media,"What do we need to make an <b>image</b> or <b>VIDEO</b> (also called <b>replaced elements</b>) to apply <code>object fit</code> property?
+<pre>img{
+      ...
+      ...
+      object-fit: contain; /* or object-fit: cover; */
+}</pre>","img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain; /* or object-fit: cover; */
+}","img{
+      ...
+      ...
+      object-fit: contain; /* or object-fit: cover; */
+}",5,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Images_media_form_elements,,,,,,,,,,,,,

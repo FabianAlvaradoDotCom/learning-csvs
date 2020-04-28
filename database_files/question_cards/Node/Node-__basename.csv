@@ -1,0 +1,6 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+Node,Node Basics,"Add the neccessary code to print only the name of the current file:
+<pre>const path = require('path');
+console.log(...);</pre>","const path = require('path');
+console.log(path.basename(__filename));",2,code-type,"const path = require('path');
+console.log(...);",Wrong,,https://www.linkedin.com/learning/node-js-essential-training-2/the-require-function,,,,,

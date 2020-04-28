@@ -1,0 +1,4 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"JS_Indispensable","Basics","What is Block variables / Block scoping?","Let variables, that will be allowed inside only a block, defined by the curly braces signs.
+The space in memory will be still reserved for it but they cannot be accessed outside the block.
+In addition the variables cannot be used in the code in lines before the lines they are created.",3,,,"Wrong answer.",,,,,,,

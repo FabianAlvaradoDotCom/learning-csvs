@@ -1,0 +1,15 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+ReactTDD,Test Goals,"Write the test goals and a brief description.<br/>
+1. <br/>
+2. <br/>
+3. <br/>","1. Test behaviour, not implementation: We test a result and not how to get a result. Not to re-write tests after a code refactor.<br/>
+2. Easy diagnosis of failing tests, often achieved by very granular tests.",,1,text-type,"1. 
+2. 
+3. ",,,https://www.udemy.com/course/react-testing-with-jest-and-enzyme/learn/lecture/16175897?start=19,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,

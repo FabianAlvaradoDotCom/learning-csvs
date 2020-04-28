@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,JSX,What does JSX mean and what does it convert to?,It is JavaScript XML and then gets converted into pure JavaScript.,1,text-type,,Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893422#overview,,,,,,,,,,,,,

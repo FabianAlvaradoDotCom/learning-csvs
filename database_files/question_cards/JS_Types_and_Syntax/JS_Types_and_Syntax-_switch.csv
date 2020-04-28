@@ -1,0 +1,13 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Types_and_Syntax,Basics,"Switch Statement<br>Create the var  let ""var_compare"" = 10. Then write the code to compare through a Switch statement the var ""var_compare"" against 2 values to print in the console:<br>-""Option1"" if equals to 5.<br>-Or printing ""Option2"" if equals to 9.<br>-Or a third option as default, printing in the console ""Option3"".","let var_compare = 10; 
+switch (var_compare) { 
+case 5: 
+console.log(""Option1""); 
+break; 
+case 9: 
+console.log(""Option2""); 
+break; 
+default: 
+console.log(""Option3""); 
+break; 
+};",12,code-type,,Wrong answer.,,,,,,,

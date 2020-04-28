@@ -1,0 +1,11 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,reference_time4,,reference_time5,,reference_time6,
+Modern Ecosystem,WebPack,"What is the minimum configurations for a <b>webpack.config.js</b> file for <b>dev</b>? This means that it will not compress files or anything, it will just bundle it.","const path = require('path');
+
+module.exports = {
+	<b>entry</b>: './src/index.js', <span class=""comments"">// The file that points to dependencies</span>
+	<b>output</b>:  {<span class=""comments"">// Specifies the bundle file that will be created</span>
+		<b>path</b>: path.resolve(__dirname, 'dist/js'),
+		<b>filename</b>: ""bundle.js""
+	},
+	<b>mode</b>: ""development""
+};",,9,code-type,,,,https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/9939868?start=74,,,,,,,,,,,,

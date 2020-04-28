@@ -1,0 +1,5 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Responsive,"What are the approaches to choose from for creating breakpoints for? And which one is the best?<br/>
+1.?<br/>
+2. ?<br/>","1. By specific mobile devices models and by content (create breakpoints for fixing design issues as the viewport increases or decreases)<br/>
+2. By content is the best and harder approach<br/>",,2,text-type,Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274546,13:56,,,,,,,,,,,,

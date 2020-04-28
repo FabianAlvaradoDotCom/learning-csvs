@@ -1,0 +1,6 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Functions,Basics,What happens when a function is invoked?,"A new Execution Context is created and put at the top of the Execution Stack. In every Execution
+Context the 2 phases take place, it first creates the space in memory for the variables and
+declared functions, and then excecutes the code line by line. Once the code within the current
+execution context finishes, the execution context pops off and continues executing the previous
+execution context.",2,,,Wrong answer,,,,,,,

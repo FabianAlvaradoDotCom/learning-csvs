@@ -1,0 +1,15 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"JS_Tips","Tricks","Use spaces to disambiguate parens.<br>-No space between a function name and ""("" .<br>-One space between all other names and ""("" .<br> <br>So, following the above rules, correct this code (use * to specify where a space should go):<br> <br>myFunc  (some);
+return(some);
+if(a== 0) {...}
+function myFunc (b) {...}
+function(x) {...}","myFunc(some);
+return*(some);
+if*(a== 0){...}
+function*myFunc(b){...}
+function*(x){...}
+",5,"code-type","myFunc___
+return___
+if___
+function___
+function___","Wrong answer",,"https://app.pluralsight.com/player?course=javascript-good-parts&author=douglas-crockford&name=javascript-good-parts-m1&clip=3&mode=live","6:24",,,,

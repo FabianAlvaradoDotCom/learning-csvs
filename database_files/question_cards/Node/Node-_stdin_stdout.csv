@@ -1,0 +1,15 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+Node,Node Essentials,"Using process module, write the code for an application that does this:<br/>
+1. Prompts in the console: ""Enter your name > "".<br/>
+2. Waits for the data and then prints: ""Your answer: [entered answer]\n"".<br/>
+3. Stops the process.<br/>
+4. Notifies that the process has been stopped: ""Finished"".","process.stdout.write('Enter your name > ');
+
+process.stdin.on(""data"", (data) => {
+  process.stdout.write(`Your answer: ${data}\n`);
+  process.exit();
+})
+
+process.on(""exit"", () => {
+  process.stdout.write(""Finished"");
+});",,9,code-type,Wrong,,https://www.linkedin.com/learning/node-js-essential-training-2/standard-input,,,,,

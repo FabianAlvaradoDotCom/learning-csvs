@@ -1,0 +1,7 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+ReactClassBased,Conditional Rendering,"Where in your ES6 Class should you put these items:<br/>
+1. Methods: <br/>
+2. Conditional render comparisons and assignings: <br/>
+3. Conditional styling: ","1. <b>Methods</b>: Right inside the class, so they are accessible from any property or method.<br/>
+2. <b>Conditional render</b> comparisons and assignings: As the <b>render</b> method executes every time it is necessary, it is a good idea to place the conditional assignings in there so the screen is always updated.<br/>
+3. <b>Conditional styling</b>: Same as conditional rendering, we can define conditional styles within the <b>render method</b> so style updates are applied with each rendering.",,3,text-type,,,,https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/8091068,,https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/8094580,,,,,,,,,,,

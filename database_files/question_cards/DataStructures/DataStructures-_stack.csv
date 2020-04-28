@@ -1,0 +1,6 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+DataStructures,Stack,What is a <b>Stack</b> structure?,"It is a pile of data elements which we have access only to the item at the top, and that we can execute the methods :<br/>
+<code>push</code>,<br/>
+<code>pop</code>,<br/>
+<code>size</code><br/>
+and <code>peek</code>.",,1,text-type,,,,https://youtu.be/t2CEgPsws3U?t=279,,,,,,,,,,,,,

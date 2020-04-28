@@ -1,0 +1,3 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+Git,Reverts,"Write the code to <b>unstage</b> a file named ""<code>recent_update.txt</code>"".<br/>
+*This is when you have a file already in the staging area and it is ready to be commited, but you want to remove it from there.",git <b>reset HEAD</b> recent_update.txt,,1,code-type,? recent_update.txt,incorrect,,https://www.udemy.com/course/git-complete/learn/lecture/1944802?start=136,,,,,,,,,,,,,

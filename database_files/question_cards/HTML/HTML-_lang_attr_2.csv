@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Basics,How do you indicate that a particular element contains content in a specific language? Use an empty <code>&lt;span&gt;&lt;/span&gt;</code> with japanese language as example.,"&lt;span lang=""ja""&gt;&lt;/span&gt;",,1,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML,,,,,,,

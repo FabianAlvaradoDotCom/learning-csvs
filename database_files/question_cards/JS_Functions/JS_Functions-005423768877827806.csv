@@ -1,0 +1,5 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Functions,Basics,What is the Scope Chain?,"The outer environment of a function is where the function is created, not where the function
+is invoked from. So the scope chain means that if we want to use a variable and it is not
+available in the scope of the function, it will go one level up and try to find the variable
+but following the scope chain just up",2,,,Wrong answer,,,,,,,

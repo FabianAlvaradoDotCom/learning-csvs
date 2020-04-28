@@ -1,0 +1,5 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Basics,Write how a description list should be indented.,"&lt;dl&gt;Description List
+  &lt;dt&gt;Description Term&lt;/dt&gt;
+  &lt;dd&gt;Description Definition&lt;/dd&gt;
+&lt;/dl&gt;",,3,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting,,,,,,,

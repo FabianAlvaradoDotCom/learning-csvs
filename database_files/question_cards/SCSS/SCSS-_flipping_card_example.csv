@@ -1,0 +1,32 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+SCSS,Flipping cards,"Write the code to make a simple flipping card, it will have only one side.<br/>
+<pre>-HTML-
+&lt;div class=""card""&gt;
+	&lt;div class=""card__side""&gt;item-1&lt;/div&gt;
+&lt;/div&gt;
+
+-CSS-
+...
+</pre>","-HTML-
+&lt;div class=""card""&gt;
+	&lt;div class=""card__side""&gt;item-1&lt;/div&gt;
+&lt;/div&gt;
+
+-CSS-
+.card{
+	width: 400px;
+	height: 500px;
+	perspective: 1000px;
+
+	&__side{
+		height: 100%;
+		width: 100%;
+		transform: rotateY(0deg);
+		transition: transform 0.5s;
+		backface-visibility: hidden;
+	}
+
+	&:hover &__side{
+		transform: rotateY(180deg);
+	}
+}",,22,code-type,,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274500?start=439,07:19,,,,,,,,,,,,

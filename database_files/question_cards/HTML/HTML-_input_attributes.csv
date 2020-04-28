@@ -1,0 +1,66 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Forms,"Mention all the attributes that an input can have:<br/><br/>
+1.<br/>
+2.<br/>
+3.<br/>
+4.<br/>
+5.<br/>
+6.<br/>
+7.<br/>
+8.<br/>
+9.<br/>
+10.<br/>
+11.<br/>
+12.<br/>
+13.<br/>
+14.<br/>
+15.<br/>
+16.<br/>
+17.<br/>
+18.<br/>
+19.<br/>
+20.<br/>
+21.<br/>
+22.","1. accept<br/>
+2. alt<br/>
+3. autocomplete<br/>
+4. autofocus<br/>
+5. capture<br/>
+6. checked<br/>
+7. disabled<br/>
+8. form<br/>
+9. height<br/>
+10. id<br/>
+11. maxlength<br/>
+12. minlength<br/>
+13. name<br/>
+14. pattern<br/>
+15. placeholder<br/>
+16. readonly<br/>
+17. required<br/>
+18. tabindex<br/>
+19. title<br/>
+20. type<br/>
+21. value<br/>
+22. width","1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.",22,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input,,,,,,,

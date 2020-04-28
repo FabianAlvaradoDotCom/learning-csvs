@@ -1,0 +1,84 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+SCSS,Mask radio and checkboxes,"Write the SCSS code we need to mask the radio buttons here with a custom radiobutton:
+<pre>&lt;div class=""<b>activity_selector</b>""&gt;
+	&lt;div class=""activity_selector__group""&gt;
+		&lt;div class=""activity_selector__button""&gt;
+			&lt;input type=""radio"" name=""elements"" id=""first_option"" class=""<b>activity_selector__radio</b>""&gt;
+			&lt;label for=""first_option"" class=""<b>activity_selector__label</b>""&gt;
+				&lt;span class=""<b>activity_selector__mask</b>""&gt;&lt;/span&gt;
+				Option 1
+			&lt;/label&gt;
+		&lt;/div&gt;
+		&lt;div class=""activity_selector__button""&gt;
+			&lt;input type=""radio"" name=""elements"" id=""second_option"" class=""<b>activity_selector__radio</b>""&gt;
+			&lt;label for=""second_option"" class=""<b>activity_selector__label</b>""&gt;
+				&lt;span class=""<b>activity_selector__mask</b>""&gt;&lt;/span&gt;
+				Option 2
+			&lt;/label&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</pre>",".activity_selector{
+
+	&__radio{
+		display: none;
+	}
+
+	&__mask{
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		border: solid red 2px;
+		display: inline-block;
+		position: relative;
+
+		&::after{
+			content: """";
+			display: inline-block;
+			position: absolute;    
+			width: 10px;
+			height: 10px;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			border-radius: 50%;
+			background-color: red;
+			opacity: 0;
+		}
+	}
+
+	&__radio:checked + &__label &__mask::after{
+		opacity: 1;
+	}  
+}",".activity_selector{
+
+	...{
+		display: none;
+	}
+
+	...{
+		width: 20px;
+		height: 20px;
+		border-radius: ...
+		border: solid red 2px;
+		display: ...
+		position: ...
+
+		...{
+			content: """";
+			display: ...
+			position: ...    
+			width: 10px;
+			height: 10px;
+			left: 
+			top: 
+			transform: ...
+			border-radius: 50%;
+			background-color: red;
+			opacity: ...
+		}
+	}
+
+	...{
+		opacity: 1;
+	}  
+}",32,code-type,,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274520?start=410,06:50,,,,,,,,,,,,

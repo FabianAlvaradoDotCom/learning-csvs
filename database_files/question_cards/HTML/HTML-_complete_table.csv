@@ -1,0 +1,94 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Basics,"1. Write the code to create a 3 column table that contains header, body and footer.<br/>
+2. It has a caption: ""This is a full table"".<br/>
+3. It has a title that takes 3 columns space: ""My Title"".<br/>
+4. It has a 3rd column with yellow background.<br/><br/>
+
+<pre>
+&lt;table&gt;    
+    &lt;tr&gt;
+      &lt;th colspan=""3""&gt;My Title&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;First&lt;/th&gt;
+      &lt;th&gt;Second&lt;/th&gt;
+      &lt;th&gt;Third&lt;/th&gt;
+    &lt;/tr&gt; 
+    &lt;tr&gt;
+      &lt;td&gt;First&lt;/td&gt;
+      &lt;td&gt;First&lt;/td&gt;
+      &lt;td&gt;First&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Second&lt;/td&gt;
+      &lt;td&gt;Second&lt;/td&gt;
+      &lt;td&gt;Second&lt;/td&gt;
+    &lt;/tr&gt;  
+    &lt;tr&gt;
+      &lt;td&gt;Footer&lt;/td&gt;
+      &lt;td&gt;Footer&lt;/td&gt;
+      &lt;td&gt;Footer&lt;/td&gt;
+    &lt;/tr&gt;  
+&lt;/table&gt;
+</pre>","&lt;table&gt;
+&lt;caption&gt;This is a full table&lt;/caption&gt;
+  &lt;colgroup&gt;
+    &lt;col span=""2""&gt;
+    &lt;col style=""background-color: yellow""&gt;
+  &lt;/colgroup&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th colspan=""3""&gt;My Title&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;First&lt;/th&gt;
+      &lt;th&gt;Second&lt;/th&gt;
+      &lt;th&gt;Third&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;First&lt;/td&gt;
+      &lt;td&gt;First&lt;/td&gt;
+      &lt;td&gt;First&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Second&lt;/td&gt;
+      &lt;td&gt;Second&lt;/td&gt;
+      &lt;td&gt;Second&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Footer&lt;/td&gt;
+      &lt;td&gt;Footer&lt;/td&gt;
+      &lt;td&gt;Footer&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;","<table>    
+    <tr>
+      <th>My Title</th>
+      <th>My Title</th>
+      <th>My Title</th>
+    </tr>
+    <tr>
+      <th>First</th>
+      <th>Second</th>
+      <th>Third</th>
+    </tr> 
+    <tr>
+      <td>First</td>
+      <td>First</td>
+      <td>First</td>
+    </tr>
+    <tr>
+      <td>Second</td>
+      <td>Second</td>
+      <td>Second</td>
+    </tr>  
+    <tr>
+      <td>Footer</td>
+      <td>Footer</td>
+      <td>Footer</td>
+    </tr>  
+</table>",20,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics,,,,,,,

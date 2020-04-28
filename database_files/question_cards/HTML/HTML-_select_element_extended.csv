@@ -1,0 +1,13 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Forms,"Write the code to show a select dropdown that has:<br/><br/>
+1. Attributes id and name have same value: ""test"".<br/>
+2. There are 2 groups, ""group1"" and ""group2"".<br/>
+3. Each group have only one option, ""item1"" and ""item2"" respectively.<br/>
+4. The default selected is ""item1"".","&lt;select id=""test"" name=""test""&gt;
+  &lt;optgroup label=""group1""&gt;  
+    &lt;option selected&gt;item1&lt;/option&gt;
+  &lt;/optgroup&gt;
+  &lt;optgroup label=""group2""&gt;
+    &lt;option&gt;item2&lt;/option&gt;
+  &lt;/optgroup&gt;
+&lt;/select&gt;",,8,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Additional_form_controls,,,,,,,

@@ -1,0 +1,9 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Breaks,"What is the property and value that makes an inline element that breaks into more than one line, to have a nice uniform padding on all lines?",box-decoration-break: clone;,"replaceme with Mixin
+
+p{
+	background: $color-primary;
+	width: 700px;
+
+	...
+}",10,code-type,Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274502?start=1345,22:25,,,,,,,,,,,,

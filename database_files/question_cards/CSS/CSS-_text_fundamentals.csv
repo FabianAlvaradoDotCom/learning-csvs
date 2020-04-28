@@ -1,0 +1,4 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Text,What are the categories of the properties used to style text?,"<b>Font styles</b>: Properties like font-family, font-size, font weight, font-style, etc.<br/>
+<b>Text layout styles</b>: Properties that affect the spacing and other layout features of the text, the space between lines and letters, and how the text is aligned within the content box.","_ styles : _
+_ styles : _",2,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals,,,,,,,,,,,,,

@@ -1,0 +1,4 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Router,What does the <b>exact</b> attribute do in our Routes and in our NavLinks?,"It prevents the router from loading more than 1 component in case that the url partially matches, as it will be exact, only one component should match.<br/>
+It also prevents active links from having the same activeClassName, as the URL should match exactly.",3,text-type,"...
+...",Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893542?start=224,,,,,,,,,,,,,

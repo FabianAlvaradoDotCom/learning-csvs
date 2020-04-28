@@ -1,0 +1,18 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Tricks,"Using <code>::after</code>, you can create an element on the fly with CSS that can be styled and act as a new element for... let's say an additional layer for an animation effect:","#some_button::after {
+    content: """";
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    z-index: -1;
+	transition: all 0.1s linear;
+}
+
+#some_button:hover::after {
+	transform: scale(2);
+	opacity: 0;
+}",,15,code-type,Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274414,01:00,,,,,,,,,,,,

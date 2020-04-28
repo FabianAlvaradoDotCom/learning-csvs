@@ -1,0 +1,25 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+ReactClassBased,Ref,"Please refactor this code in order to implement <code>ref</code> ""name_field"" to the input element as the last attribute. After it hast its ref, make it to receive <b>focus</b> on component mount.<br/>
+Use React 16.3 syntax.
+<pre>class ChildComponent extends Component {
+	render() {
+		return &lt;input type=""text"" />;
+	}
+}</pre>","class ChildComponent extends Component {
+	constructor(props){
+		super(props);
+		this.name_field = React.createRef();
+	}
+
+	componentDidMount(){
+		this.name_field.current.focus();
+	}
+
+	render() {
+		return &lt;input type=""text"" ref={this.name_field} />;
+	}
+}",,13,code-type,"class ChildComponent extends Component {
+	render() {
+		return <input type=""text"" />;
+	}
+}",Wrong,,https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/13556338?start=286,,,,,,,,,,,,,

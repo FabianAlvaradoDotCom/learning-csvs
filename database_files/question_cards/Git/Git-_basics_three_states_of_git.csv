@@ -1,0 +1,6 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+Git,Basics,What are the 3 local file states manged by git?,"<b>Working directory</b>: Folder on your computer that holds all project files.<br/>
+<b>Staging area</b>: (Git Index) It is the holding area for queueing up changes for the next commit.<br/>
+<b>Repository</b>: (Commit history) Manages all the final changes and permanently part of the git repository.",,3,text-type,"? : Folder on your computer that holds all project files.
+? : (Git Index) It is the holding area for queueing up changes for the next commit.
+? : (Commit history) Manages all the final changes and permanently part of the git repository.",,,https://www.udemy.com/course/git-complete/learn/lecture/1918284?start=33,,,,,,,,,,,,,

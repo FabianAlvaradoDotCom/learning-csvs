@@ -1,0 +1,25 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+Git,Push branch,"Write the code to push the new branch ""<b>feat/Color_added</b>"" to the remote repository, that follows this workflow:
+<ol>
+<li>Creates and moves to the new branch.</li>
+<li>After updated the ""text.txt"" and ""script.js"" files in the working directory, this codes adds them to the staging area.</li>
+<li>Nex step is adding updates to the local repository, using the message ""Color added"".</li>
+<li>Finally, this code pushes the branch to the remote repository.</li>
+</ol>","# 1<br/>
+git <b>checkout -b</b> feat/Color_added<br/>
+# 2<br/>
+git <b>add</b> text.txt script.js<br/>
+# 3<br/>
+git <b>commit -m</b> ""Color added""<br/>
+# 4<br/>
+git <b>push origin</b> feat/Color_added",,10,code-type,"# 1
+?
+
+# 2
+?
+
+# 3
+?
+
+# 4
+?",incorrect,,,,,,,,,,,,,,,

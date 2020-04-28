@@ -1,0 +1,23 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+JavaScript,Fetch,"Using an anonymous arrow function, Fetch, Async/Await, Try/Catch and .json():<br/>
+1. Fetch some content from the variable some_url and save it in a let variable <b>raw_response</b>.<br/>
+2. Pass as the web request parameters a <b>token</b> in the <b>local storage</b> and the method <b>POST</b>.<br/>
+3. Pass as the request body, just a variable <b>request_body</b><br/>
+4. Then parse it using .json() and save the result in <b>json_response</b>.<br/>
+5. If there is any error, just print it to the console.","( async ()=&gt;{
+	try{
+		const raw_response = await fetch(some_url, {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+				Authorization: `Bearer ${localStorage.getItem(""token"")}`
+			},
+			body: JSON.stringify(request_body)
+		});
+
+		const json_response = await raw_response.json();
+
+	}catch(error){
+		console.log(error);
+	}
+})();",16,code-type,,Wrong,,,,,,,,,,,,,,,

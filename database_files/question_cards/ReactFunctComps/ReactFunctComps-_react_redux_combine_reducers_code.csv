@@ -1,0 +1,41 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+ReactFunctComps,Redux Wiring Up,"What code do we use for combining reducers so we can track more than 1 set of data?<br/>
+Edit the code below so you add a reducer named ""loan_reducer"".
+<pre>import { createStore } from ""redux"";
+import balance_reducer from ""./store/balance_reducer"";
+import { Provider } from ""react-redux"";
+
+const store = createStore(reducer);
+
+ReactDOM.render(
+	&lt;Provider store={store}&gt;
+		&lt;App /&gt;
+	&lt;/Provider&gt;,
+	document.getElementById(""root"")
+);</pre>","import { createStore, <b>combineReducers</b> } from ""redux"";
+import balance_reducer from ""./store/balance_reducer"";
+import <b>loan_reducer</b> from ""./store/loan_reducer"";
+import { Provider } from ""react-redux"";
+
+const store = createStore(<b>combineReducers({
+	balance_reducer,
+	loan_reducer
+})</b>);
+
+ReactDOM.render(
+	&lt;Provider store={store}&gt;
+		&lt;App /&gt;
+	&lt;/Provider&gt;,
+	document.getElementById(""root"")
+);",,15,code-type,"import { createStore } from ""redux"";
+import balance_reducer from ""./store/balance_reducer"";
+import { Provider } from ""react-redux"";
+
+const store = createStore(reducer);
+
+ReactDOM.render(
+	<Provider store={store}>
+		<App />
+	</Provider>,
+	document.getElementById(""root"")
+);",Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/15356108,,,,,,,,,,,,,

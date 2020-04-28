@@ -1,0 +1,7 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Flexbox,"Write the CSS code to create a simple <b>FIXED</b> grid layout that will have 3 columns 200px wide. Remember that for doing this you just need to make the css declaration to one rule.<br/>Choose the right one to to write the code based upon:<br/><br/>
+- <b>#parent</b><br/>
+- <b>.children</b>","#parent{
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+}",,4,code-type,Wrong,grid.png,https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids,,,,,,,,,,,,,

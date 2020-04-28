@@ -1,0 +1,6 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+CSS,Selectors,What is the difference between:<br>.perro#gato (with no space)<br>.perro #gato (with space) ?,".perro#gato : This selects the specific element that has id gato and in addition the
+same element has the class perro. <br/>
+.perro #gato : This selects any element that has id gato and that is inside of any
+element tha has the class perro",6,,,"perro#gato 
+.perro #gato (with space)",,,,,,,

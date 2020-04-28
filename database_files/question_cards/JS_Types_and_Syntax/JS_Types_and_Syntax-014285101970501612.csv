@@ -1,0 +1,6 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"JS_Types_and_Syntax","Basics","Strict mode makes it easier to write ""secure"" JavaScript.
+Strict mode changes previously accepted ""bad syntax"" into real errors.
+In normal JavaScript, mistyping a variable name creates a new global variable. In strict mode, this will throw an error, making it impossible to accidentally create a global variable.
+In normal JavaScript, a developer will not receive any error feedback assigning values to non-writable properties.
+ In strict mode, any assignment to a non-writable property, a getter-only property, a non-existing property, a non-existing variable, or a non-existing object, will throw an error.","True",2,,"True or false","True or false",,,,,,,

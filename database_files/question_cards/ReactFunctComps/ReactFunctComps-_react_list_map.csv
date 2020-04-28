@@ -1,0 +1,4 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Lists,"When we make lists with React, the easiest way is to use arrays to pupulate the list, then we just use...? Create the code below using as a base the array ""names_array_state"", we just need to create as many <code>li</code> elements as elements the array has. Remember that it is necessary to use keys and index so it does not throw an error, and as parameters use <code>element</code> and <code>index</code> for consistency.","{names_array_state.map( (element, index) =&gt; {
+	return &lt;li key={index}&gt;{element}&lt;/li&gt;
+})}",2,code-type,,Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893450#overview,,,,,,,,,,,,,

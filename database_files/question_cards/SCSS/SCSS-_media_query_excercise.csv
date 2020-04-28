@@ -1,0 +1,46 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+SCSS,Media Queries,"Add a media query to the code below that changes the <b>font-size</b> to <code>1.8rem</code> if the viewport width is less than 900px. In addition to that, do the same but this time using SCSS and a mixin named <b>less-than</b>, you can pass as a parameter named <code>tab-port</code> that corresponds to 900px.
+
+<pre>CSS
+.main-contact{
+	font-size: 2rem;
+
+	...
+}
+
+SCSS
+.main-contact{
+	font-size: 2rem;
+
+	...
+}</pre>","CSS
+.main-contact{
+	font-size: 2rem;
+}
+
+@media (max-width: 900px) {
+	.main-contact{
+		font-size: 1.8rem;
+	}
+}
+
+SCSS
+.main-contact{
+	font-size: 2rem;
+
+	@include less-than(tab-port){
+		font-size: 1.8rem;
+	}
+}","CSS
+.main-contact{
+	font-size: 2rem;
+
+	...
+}
+
+SCSS
+.main-contact{
+	font-size: 2rem;
+
+	...
+}",18,code-type,Wrong,,,,,,,,,,,,,,,

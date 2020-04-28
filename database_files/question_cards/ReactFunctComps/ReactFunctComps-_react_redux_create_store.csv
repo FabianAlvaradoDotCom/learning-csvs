@@ -1,0 +1,27 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Redux Wiring Up,"What code do we use for creating the redux store for managing the state?<br/>
+What else do we need to change to this code in order to be able to use redux?
+<pre>import { createStore } from 'redux';
+import reducer from './store/reducer';
+import { Provider } from 'react-redux';
+
+...
+
+ReactDOM.render(&lt;App /&gt;, document.getElementById('root'));</pre>","import { createStore } from ""redux"";
+import reducer from ""./store/reducer"";
+import { Provider } from ""react-redux"";
+
+<b>const store = createStore(reducer);</b>
+
+ReactDOM.render(
+	<b>&lt;Provider store={store}&gt;</b>
+		&lt;App /&gt;
+	<b>&lt;/Provider&gt;</b>,
+	document.getElementById(""root"")
+);",11,code-type,"import { createStore } from 'redux';
+import reducer from './store/reducer';
+import { Provider } from 'react-redux';
+
+...
+
+ReactDOM.render(<App />, document.getElementById('root'));",Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893560?start=845,,,,,,,,,,,,,

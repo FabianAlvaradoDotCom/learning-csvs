@@ -1,0 +1,11 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Functions,Functions are Objects,"Is it possible to attach properties to a Function? If so, please write the code to attach 'new_prop' = ""extended""' to this function:
+<pre>function myFunction(){
+&#09;console.log('Something');
+}","function myFunction(){
+&#09;console.log('Something');
+}
+myFunction.new_prop = ""extended"";",4,code-type,"function myFunction(){
+   console.log('Something');
+}
+// replace me with your code ",Review your code,,https://www.udemy.com/course/understand-javascript/learn/lecture/2237520,04:20,,,,

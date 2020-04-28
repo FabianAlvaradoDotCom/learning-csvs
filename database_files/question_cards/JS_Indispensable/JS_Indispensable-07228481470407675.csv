@@ -1,0 +1,17 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Indispensable,Tricks,"In JS, curly braces should be put at the left or the right?<br>Example 1, at the left:<br>
+<pre>function giveObject() {
+  return
+  {
+    name: ""John""
+  };
+}
+console.log(giveObject().name);</pre>
+<br/><br/>
+Example 2, at the right:<br/>
+<pre>function giveObject() {
+  return{
+    name: ""John""
+  };
+}
+console.log(giveObject().name);</pre>","Always at the right, if we put it at the left it will return undefined. That is because of the AUTOMATIC SEMICOLON INSERTION, it will add a semicolon after the return statement, which ends the function and ignores the object.",3,text-type,Always at the ...,"Wrong answer, check spaces between words.",,https://app.pluralsight.com/player?course=javascript-good-parts&author=douglas-crockford&name=javascript-good-parts-m1&clip=2&mode=live,04:56,,,,

@@ -1,0 +1,4 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+CSS,Basics,Write the css code you would use for making all list items to display a checkmark as a bullet (unicode \2714).,"li{
+    list-style-type: ""\2714"";
+  }",,1,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type,,,,,,,

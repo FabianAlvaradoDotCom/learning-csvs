@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+Tools,CMD,What is the <b>Windows</b> command for creating a new file on the current directory? Write the code to create the file <b>_mixins.scss</b>,type nul > _mixins.scss,,1,code-type,Wrong,,,,,,,

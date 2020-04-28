@@ -1,0 +1,9 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Types_and_Syntax,While Loops,"Write the code so you run a while loop imitating the way a For loop works, these are the details:<br>-I will run while it is true.<br>-It will print the counter 10 times to the console.<br>-It will stop after it prints 10 times.","let counter = 0;
+while(true){
+   if( counter >= 10){
+      break;
+   };
+   console.log(counter);
+      counter+= 1;
+};",8,code-type,,"Wrong answer, check your semicolons",,https://app.pluralsight.com/player?course=javascript-programming-basics&author=kyle-simpson&name=javascript-programming-basics-m2&clip=5&mode=live,"7:51<br>-It has a ""counter"".",,,,

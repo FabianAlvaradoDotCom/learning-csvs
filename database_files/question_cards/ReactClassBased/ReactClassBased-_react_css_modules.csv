@@ -1,0 +1,13 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+ReactClassBased,React Styling,"With recent React versions, it is possible to import CSS modules without ejecting the project. If <code>""react-scripts""</code> are greater than <b>2.0</b>, then you could do it just by importing the CSS module.<br/>
+What would be the code update to apply the class <code>.red</code> to the button below?
+<pre>import free_name_style from './ChildComponent.css';
+...
+	&lt;button className="""">Click me&lt;/button>
+...</pre>","import <b>free_name_style</b> from './ChildComponent<b class=""red"">.module</b>.css';
+...
+	&lt;button className={ <b>free_name_style</b>.<b class=""red"">red</b>}>Click me&lt;/button>
+...",,3,code-type,"import free_name_style from './ChildComponent.css';
+...
+	<button className="""">Click me</button>
+...",Wrong,,https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/16851078?start=145,,,,,,,,,,,,,

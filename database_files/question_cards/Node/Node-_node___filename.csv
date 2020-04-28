@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+Node,Node Basics,What code do we write to get the name and full path to the directory of current file?,__filename,2,code-type,,Wrong,,https://www.linkedin.com/learning/node-js-essential-training-2/the-require-function,,,,,

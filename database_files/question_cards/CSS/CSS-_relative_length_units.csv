@@ -1,0 +1,27 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Units,"What are the <b>relative length</b> units?<br/><br/>
+1. <br/>
+2. <br/>
+3. <br/>
+4. <br/>
+5. <br/>
+6. <br/>
+7. <br/>
+8. <br/>
+9. ","1. <code>em</code> Font size of the parent element.<br/>
+2. <code>ex</code> x-height of the element's font.<br/>
+3. <code>ch</code> The advance measure (width) of the glyph ""0"" of the element's font.<br/>
+4. <code>rem</code> Font size of the root element.<br/>
+5. <code>lh</code> Line height of the element.<br/>
+6. <code>vw</code> 1% of the viewport's width.<br/>
+7. <code>vh</code> 1% of the viewport's height.<br/>
+8. <code>vmin</code> 1% of the viewport's smaller dimension.<br/>
+9. <code>vmax</code> 1% of the viewport's larger dimension.","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",9,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units,,,,,,,,,,,,,

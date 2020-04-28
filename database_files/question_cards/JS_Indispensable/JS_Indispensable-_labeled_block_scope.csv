@@ -1,0 +1,4 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+JS_Indispensable,Block Statement,"Write a simple example of a labeled ""my_group"" block statement that holds a let variable ""a"" that has a value of ""a"".","my_group :{
+  let a = ""a"";
+}",,1,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block,,,,,,,

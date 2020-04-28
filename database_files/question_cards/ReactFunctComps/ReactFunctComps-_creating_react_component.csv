@@ -1,0 +1,19 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Creating React Component,"Write the simplest code to create a react component that will be ""HomePage"", it will render just <code>&lt;div&gt;...&lt;/div&gt;</code>. Include the filename at the top:
+<pre>Filename.xxx
+
+[Code…
+...]</pre>","HomePage.jsx
+
+import React from 'react';
+
+const HomePage = () =&gt; {
+	return(
+		&lt;div&gt;...&lt;/div&gt;
+	);
+};
+
+export default HomePage;",10,code-type,"Filename.xxx
+
+[Code…
+...]",Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893560#overview,,,,,,,,,,,,,

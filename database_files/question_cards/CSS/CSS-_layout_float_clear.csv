@@ -1,0 +1,6 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Float,"What is the property and its possible values for an element next to a floted one, so it does not get affected by the floating one and can use the total width of the parent?<br/>
+Property: _<br/>
+Values: _, _ and _","Property: <code>clear</code><br/>
+Values: <code>left, right and both</code>","Property: _
+Values: _, _ and _",2,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats,,,,,,,,,,,,,

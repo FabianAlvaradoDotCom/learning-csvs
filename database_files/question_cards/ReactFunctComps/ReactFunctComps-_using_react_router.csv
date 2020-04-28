@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Router,Write the code to import the 3 main Reactive router objects,"import { BrowserRouter, Route, NavLink } from 'react-router-dom';",,code-type,,Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893560#overview,,,,,,,,,,,,,

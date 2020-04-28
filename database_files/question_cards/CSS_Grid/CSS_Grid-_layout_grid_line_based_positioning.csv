@@ -1,0 +1,12 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Grid,"What are the properties used for positioning <b>elements</b> within a grid container?<br/>
+1. ??<br/>
+2. ??<br/>
+3. ??<br/>
+4. ??","1. <code>grid-column</code>-<b>start</b><br/>
+2. <code>grid-column</code>-<b>end</b><br/>
+3. <code>grid-row</code>-<b>start</b><br/>
+4. <code>grid-row</code>-<b>end</b>","1. ??
+2. ??
+3. ??
+4. ??",4,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids,,,,,,,,,,,,,

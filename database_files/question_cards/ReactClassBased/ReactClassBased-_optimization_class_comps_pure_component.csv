@@ -1,0 +1,6 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+ReactClassBased,shouldComponentUpdate,"In a scenario when you need a component to update only if any of its props will update, and you need to compare all of future props one by one vs current props, what is the best alternative we have to avoid writing any comparisons? Write the answer, in line 1, and then write the import statements or any code you would change in a component in the next lines.
+<pre>1. What would you do?:
+2. Add your code here:</pre>","1. What would you do?: Removing <b>shouldComponentUpdate</b> at all and instead of extending <b>Component</b>, better to extend <b>PureComponent</b>
+2. Add your code here: <b>import React, { PureComponent } from ""react"";</b>",,2,code-type,"1. What would you do?:
+2. Add your code here:",Wrong,,https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/13556312,,,,,,,,,,,,,

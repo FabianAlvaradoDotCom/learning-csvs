@@ -1,0 +1,4 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+Git,Configs,"Type the code to config into the terminal the user and email to ""<b>John Doe</b>"" and ""<b>john@doe.com</b>"" respectively.","git config --global user.name ""John Doe""
+git config --global user.email ""john@doe.com""",,2,code-type,"git ...
+git ...",,,https://www.udemy.com/course/git-complete/learn/lecture/1918306?start=52,,,,,,,,,,,,,

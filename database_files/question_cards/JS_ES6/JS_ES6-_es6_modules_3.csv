@@ -1,0 +1,7 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+Javascript,ES6 Modules,"Using modules, how would you export a constant <b>calculate_income = 5</b> that is one of more files to be exported (not the default)?
+Write the code to export it during its initialization, and also the code to import it if it is located in the same folder of the file importing it, and the file that contains it is <b>year_calculations.js</b>. This time we need to give the imported variable a different name so it does not colide with another variable using the same name, so lets import it as <b>new_calculate</b> <br/>
+<pre>Export: [your code here...]
+Import: [your code here...]</pre>","Export: <b>export</b> const calculate_income = 5;
+Import: <b>import { calculate_income as new_calculate }</b> from './year_calculations.js';",2,code-type,"Export: 
+Import: ",Wrong,,https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/8211788,,,,,,,,,,,,,

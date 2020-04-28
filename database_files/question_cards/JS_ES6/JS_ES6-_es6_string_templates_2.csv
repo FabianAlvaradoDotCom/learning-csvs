@@ -1,0 +1,12 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+Javascript,ES6 String Templates,"Replace the square brackets of the code below with by your aswers on <b>Template Strings methods</b> so they do what is requested.
+<pre>`Tomorrow morning` [confirm it starts with 'T']
+`5 o-clock` [confirm if it ends with 'x']
+`Another one` [confirm if it has 'other' somewhere]
+`Lorem ipsum ` [repeat 3 times]</pre>","`Tomorrow morning`.startsWith('T');
+`5 o-clock`.endsWith('x');
+`Another one`.includes('other');
+`Lorem ipsum `.repeat(3);",,4,code-type,"`Tomorrow morning`
+`5 o-clock`
+`Another one`
+`Lorem ipsum `",Wrong,,https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/6034306?start=346,,,,,,,,,,,,,

@@ -1,0 +1,12 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Flexbox,"Please list and describe the posible values for <code>align-items</code> and <code>align-self</code>:<br/><br/>
+1. <br/>
+2. <br/>
+3. <br/>
+4. ","1. <b>stretch (initial)</b> : Stretches all flex items (or the item if used align-self) to fill the parent in the direction of the cross axis. If the parent hasn't got a fixed width in the cross axis direction, then all flex items will become as long as the longest flex items.<br/>
+2. <b>center</b> : Centers all flex items (or the item if used align-self) along the cross axis. Items maintain their intrinsic dimensions.<br/>
+3. <b>flex-start</b> :  Aligns all flex items (or the item if used align-self) at the start of the cross axis. Items maintain their intrinsic dimensions.<br/>
+4. <b>flex-end</b> :  Aligns all flex items (or the item if used align-self) at the end of the cross axis. Items maintain their intrinsic dimensions.","1. 
+2. 
+3. 
+4. ",7,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox,,,,,,,,,,,,,

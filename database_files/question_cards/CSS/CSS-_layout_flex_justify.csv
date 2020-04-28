@@ -1,0 +1,16 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Flexbox,"The <b>justify content</b> property has a similar effect on the flex items, but the difference is that it aligns the flex items along the main axis.
+Please list and describe the posible values for <code>justify-content</code>:<br/><br/>
+1. <br/>
+2. <br/>
+3. <br/>
+4. <br/>
+5. ","1. <b>center</b> : Centers all flex items along the main axis.<br/>
+2. <b>flex-start</b> :  Aligns all flex items at the start of the main axis.<br/>
+3. <b>flex-end</b> :  Aligns all flex items at the end of the main axis.<br/>
+4. <b>space-around</b> :  Distributes all the items evenly along the main axis, with a bit of space left at either end.<br/>
+5. <b>space-between</b> : Very similar to space-around except that it doesn't leave any space at either end.","1. 
+2. 
+3. 
+4. 
+5. ",7,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox,,,,,,,,,,,,,

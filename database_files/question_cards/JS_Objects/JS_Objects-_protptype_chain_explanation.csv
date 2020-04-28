@@ -1,0 +1,6 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Objects,"Objects, Inheritance and Prototype chain","Each and every object we create is an instance of the Object Constructor that has many methods in its prototype property, so all objects created from it inherit these methods. So, taking this into account, please describe the following<br>If you have an object created using the Function Constructor, how does the engine try to find a method in it? Explain the Prtotype chain.","1.- It first tries to find the method on the object.<br/>
+2.- If the method is not found it moves up in the prototype chain and tries to find it on its prototype (which is the prototype property of its parent).<br/>
+3.-If the method is still not there it moves up in the prototype until there is no more prototypes to look at, and it will get null wich is the last link of the prototype chain and will return undefined.<br/>",5,,"1.- It first tries to find the method...
+2.- ...
+3.-...",Not correct,,https://www.udemy.com/the-complete-javascript-course/learn/v4/t/lecture/5869180,Entire video,,,,

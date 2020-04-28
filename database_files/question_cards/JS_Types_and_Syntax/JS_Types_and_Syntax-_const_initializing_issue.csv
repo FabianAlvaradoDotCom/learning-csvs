@@ -1,0 +1,4 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Types_and_Syntax,JavaScript Const,"What happens when you declare a constant like this:
+<pre>const numero;</pre>","It throws an error:<br/>
+Uncaught SyntaxError: Missing initializer in const declaration",,3,text-type,Wrong,,,,,,,

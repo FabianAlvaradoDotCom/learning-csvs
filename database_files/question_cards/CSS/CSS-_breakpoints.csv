@@ -1,0 +1,18 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Breakpoints,"What are the breakpoints of the most used devices? Write from smaller to bigest:<br/>
+1. ?px - ?px : Device
+2. <br/>
+3. <br/>
+4. <br/>
+5. <br/>
+6. <br/>
+7. <br/>
+8. <br/>","1. 0px - 600px : Phone<br/>
+2. 601px - 900px : Tablet Portrait<br/>
+3. 901px - 1200px : Tablet Landscape<br/>
+4. 1201px - 1800px : Desktop<br/>
+5. +1801px : Big desktop","1. ?px - ?px : Device
+2. px - px : 
+3. px - px : 
+4. px - px : 
+5. +?px : ",4,text-type,Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274546?start=908,15:08,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274548?start=282,04:42,,,,,,,,,,

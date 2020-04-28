@@ -1,0 +1,2 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"JS_Useful_Methods","Tricks","What is the code to identify if the browser is IE from 6 to 11?","var isIE = /*@cc_on!@*/false || !!document.documentMode;",2,"text-type","var isIE = ...",,,"","It is text",,,,

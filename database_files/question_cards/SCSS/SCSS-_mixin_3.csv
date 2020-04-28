@@ -1,0 +1,29 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+SCSS,Color Controlling,"Write a mixin that will have 3 properties, <code>margin: 0 auto;</code>, <code>padding: 100px;</code>, but  in addition, our mixin accepts an argument ""<b>$new-color</b>"" that will be the value of a third property ""color"". The name of the mixin will be ""<b>center-100-yellow</b>"".<br/>
+Then, within the below rule <b>p</b>, insert the mixin and give it a <b>yellow</b> color as the argument.
+<pre>replaceme with Mixin
+
+p{
+	background: $color-primary;
+	width: 700px;
+
+	...
+}</pre>","@mixin center-100-yellow($new-color){
+	margin: 0 auto;
+	padding: 100px;
+	color: $new-color;
+}
+
+p{
+	background: $color-primary;
+	width: 700px;
+
+	@include center-100-yellow(yellow);
+}","replaceme with Mixin
+
+p{
+	background: $color-primary;
+	width: 700px;
+
+	...
+}",10,code-type,Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274458,00:52,,,,,,,,,,,,

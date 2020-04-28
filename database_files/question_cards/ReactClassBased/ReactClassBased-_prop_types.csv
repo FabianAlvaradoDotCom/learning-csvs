@@ -1,0 +1,33 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+ReactClassBased and Functional,Prop Types,"For using strongly ""typed"" in React, we can import a library that enforces a component to receive props of certain type. For this exercise you will use a class ""ChildComponent"", that receives from its parent, an array ""data_array"" and a function ""updateFn"" Respond the corresponding below:<br/>
+1. Npm command to install the library: <br/>
+2. Library import statement: <br/>
+3. Object defining the prop types after the class definition: <pre>class ChildComponent extends Component { 
+	...
+}
+
+[--replace with your code--]
+
+export default ChildComponent;</pre>","1. Npm command to install the library: <b>npm i -S prop-types</b>
+2. Library import statement: <b>import PropTypes from 'prop-types';</b>
+3. Object defining the prop types after the class definition: <pre><b class=""blue"">
+class ChildComponent extends Component { 
+	...
+}</b>
+
+<b class=""magenta"">ChildComponent.propTypes = {
+	data_array: PropTypes.array,
+	updateFn: PropTypes.func
+};</b>
+
+<b class=""blue"">export default ChildComponent;</b></pre>",,13,code-type,"1. Npm command to install the library: 
+2. Library import statement: 
+3. Object defining the prop types after the class definition:
+
+class ChildComponent extends Component { 
+	...
+}
+
+[--replace with your code--]
+
+export default ChildComponent;",Wrong,,https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/13556336,,,,,,,,,,,,,

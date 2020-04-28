@@ -1,0 +1,39 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Router,"Complete the below code with the missing statements so we have these 3 navlinks:<br/>
+<b>""/"" Home<br/>
+""/deposits"" Deposits<br/>
+""/balance"" Balance</b><br/>
+*Remember to include all necessary attributes. In this case we do not need to wrap the links within a &lt;ul&gt;. In addition, we will give the class <b>active</b> when a link is active.<br/>
+<pre>function App() {
+	return (
+		&lt;BrowserRouter&gt;
+			&lt;div className=""App""&gt;
+				... // Links here
+			&lt;/div&gt;
+		&lt;/BrowserRouter&gt;
+	);
+}
+
+export default App;</pre>","function App() {
+	return (
+		&lt;BrowserRouter&gt;
+			&lt;div className=""App""&gt;
+				&lt;NavLink to=""/"" exact activeClassName=""active""&gt;Home&lt;/NavLink&gt;
+				&lt;NavLink to=""/deposits"" exact activeClassName=""active""&gt;Deposits&lt;/NavLink&gt;
+				&lt;NavLink to=""/balance"" exact activeClassName=""active""&gt;Balance&lt;/NavLink&gt;
+			&lt;/div&gt;
+		&lt;/BrowserRouter&gt;
+	);
+}
+
+export default App;",12,code-type,"function App() {
+	return (
+		<BrowserRouter>
+			<div className=""App"">
+				... // Links here
+			</div>
+		</BrowserRouter>
+	);
+}
+
+export default App;",Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893560#overview,,,,,,,,,,,,,

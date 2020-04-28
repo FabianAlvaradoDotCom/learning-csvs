@@ -1,0 +1,10 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Forms,"Write the code to show an <b>autocomplete box</b> that will have this characteristics:<br/><br/>
+1. It will have a label at the left ""Question...?"", that will be bound to the input.<br/>
+2. It will have an input with name and id with the value ""question"", that will be bound to a list ""suggestions_list"".<br/>
+3. As possible answers we will have only 2 options, ""Suggestion1"" and ""Suggestion2"".<br/>","&lt;label for=""question""&gt;Question...?&lt;/label&gt;
+&lt;input type=""text"" name=""question"" id=""question"" list=""suggestions_list""&gt;
+&lt;datalist id=""suggestions_list""&gt;
+  &lt;option&gt;Suggestion1&lt;/option&gt;
+  &lt;option&gt;Suggestion2&lt;/option&gt;  
+&lt;/datalist&gt;",,6,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Additional_form_controls,,,,,,,

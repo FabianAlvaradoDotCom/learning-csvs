@@ -1,0 +1,66 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Forms,"Mention all the types of inputs:<br/><br/>
+1.<br/>
+2.<br/>
+3.<br/>
+4.<br/>
+5.<br/>
+6.<br/>
+7.<br/>
+8.<br/>
+9.<br/>
+10.<br/>
+11.<br/>
+12.<br/>
+13.<br/>
+14.<br/>
+15.<br/>
+16.<br/>
+17.<br/>
+18.<br/>
+19.<br/>
+20.<br/>
+21.<br/>
+22.","1. button<br/>
+2. checkbox<br/>
+3. color<br/>
+4. date<br/>
+5. datetime-local<br/>
+6. email<br/>
+7. file<br/>
+8. hidden<br/>
+9. image<br/>
+10. month<br/>
+11. number<br/>
+12. password<br/>
+13. radio<br/>
+14. range<br/>
+15. reset<br/>
+16. search<br/>
+17. submit<br/>
+18. tel<br/>
+19. text<br/>
+20. time<br/>
+21. url<br/>
+22. week","1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.",22,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input,,,,,,,

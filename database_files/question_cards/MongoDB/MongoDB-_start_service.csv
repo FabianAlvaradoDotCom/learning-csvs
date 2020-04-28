@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+MongoDB, Mongo Basics,How do we start the Mongo Service in Windows? Write code that goes into the console.,mongod,,3,code-type,Wrong,,https://www.udemy.com/course/mongodb-the-complete-developers-guide/learn/lecture/11739120,,,,,

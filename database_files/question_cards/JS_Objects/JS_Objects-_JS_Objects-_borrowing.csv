@@ -1,0 +1,39 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Objects,This and Method Borrowing,"Due to that the 'this' variable is assigned only when the object calls a method, we can do something that is called 'Method Borrowing' which is taking methods from another object. Copy the entire code below and add the proper line(s) of code to perform the 'Method Borrowing' technique.<br>*Remember that using the '()' a function is invoked, but without parens the function code is being passed entirely.<br> <br>
+<pre>var person1 = {
+  fullName: 'Person Number1',
+  writeName: function() {
+    console.log(this.fullName);
+  }
+};
+
+var person2 = {
+  fullName: 'Person Number2'
+};
+
+person2.writeName();</pre>","var person1 = {
+  fullName: 'Person Number1',
+  writeName: function() {
+    console.log(this.fullName);
+  }
+};
+
+var person2 = {
+  fullName: 'Person Number2'
+};
+
+person2.writeName = person1.writeName;
+person2.writeName();",13,code-type,"var person1 = {
+  fullName: 'Person Number1',
+  writeName: function() {
+    console.log(this.fullName);
+  }
+};
+
+var person2 = {
+  fullName: 'Person Number2'
+};
+
+�
+
+person2.writeName();",Wrong answer,,https://www.udemy.com/the-complete-javascript-course/learn/v4/t/lecture/5869138?start=446,07:26,https://www.udemy.com/course/understand-javascript/learn/lecture/2237530?start=480,12:48,,

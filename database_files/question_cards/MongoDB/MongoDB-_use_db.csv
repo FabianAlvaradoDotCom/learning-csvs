@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+MongoDB,Mongo Basics,"What would be the command to connect to ""posts"" data base (and create it if does not exist)? If it does ont exist it will create it on the fly when we enter any data.",use posts,1,code-type,,Wrong,,https://www.udemy.com/course/mongodb-the-complete-developers-guide/learn/lecture/11739124,,,,,

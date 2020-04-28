@@ -1,0 +1,10 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Functions,Functions are Objects,What are the 5 types of properties that a Function can have?,"1. Primitives<br/>
+2. Objects<br/>
+3. Functions<br/>
+4. Name<br/>
+5. Code",6,text-type,"1. __s
+2. __s
+3. __s
+4. __
+5. __",Same as objects but 2 more,,https://www.udemy.com/course/understand-javascript/learn/lecture/2237520,02:15,,,,

@@ -1,0 +1,2 @@
+subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Patterns,Basics,What is the Object Constructor method?,"Creating the object as a template or prototype, then from it creating as many instances as needed",2,,,Wrong answer,,,,,,,

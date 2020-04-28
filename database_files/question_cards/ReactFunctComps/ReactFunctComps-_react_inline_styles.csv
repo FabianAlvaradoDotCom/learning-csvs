@@ -1,0 +1,3 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Inline styles,"How would you write the HTML code below using React syntax (remember it is just a JS object)?
+<pre>&lt;p style=""color:red""&gt;&lt;/p&gt;</pre>","&lt;p style={{ color: ""red""}}&gt;&lt;/p&gt;",2,code-type,"<p style=""color:red""></p>",Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893422#overview,,,,,,,,,,,,,

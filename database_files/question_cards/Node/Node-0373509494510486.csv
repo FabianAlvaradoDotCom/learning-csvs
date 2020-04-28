@@ -1,0 +1,27 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"Node","Global Objects","You will create a mockup of the login of an application:<br>//JavaScript Code<br>1.- First create a function ""login"" that will have a parameter ""flag"" that will contain the user or the password defined in the javascript (will validate one or the other separately). Inside the function there will be a variable ""index"" that will store the position in the argv array of the just passed flag.<br> <br>2.- The function will return null if the value passed in as flag by the javascript does not exist in the argv array (which was passed in through the node command console); it willl return the value of the argv flag in case it exists.<br> <br>3.- Then you must validate that both, the ""user"" and ""password"" flags returned different to null, if not, print ""User or password do not exist"" to the console.<br> <br>4.- If the above is correct, then validate that the user is equals to ""Admin"", if not, print ""User is not correct"" to the console.<br> <br>5.- If the above is correct, then validate that the password is equals to ""admin1"", if not, print ""Password is not correct"" to the console, else print ""Logged in successfully!"" to the console.<br> <br>//Node Code at the terminal<br>6.- Write the code that you would write in the terminal to have a successful login.","function login(flag){
+        var index = process.argv.indexOf(flag);
+        return ( index === -1 ) ? null : process.argv[index+1]; 
+};
+var user = login(""--user"");
+var password = login(""--password"");
+if(!user || !password){
+    console.log(""User or password do not exist"");
+}else{
+    if(user === ""Admin""){
+        if(password === ""admin1""){
+            console.log(""Logged in successfully!"");
+        }else{
+            console.log(""Password is not correct"");
+        };
+    }else{
+        console.log(""User is not correct"");
+    };
+};
+
+
+node index.js --user Admin --password admin1",22,"code-type","// Replace with JavaScript Code
+
+
+// Replace with Node Code at the terminal
+","Wrong answer, check your semicolons",,"https://www.lynda.com/player/embed/454432?fs=3&w=560&h=315&ps=paused&utm_medium=referral&utm_source=embed+video&utm_campaign=ldc-website&utm_content=vid-454432","02:05",,,,

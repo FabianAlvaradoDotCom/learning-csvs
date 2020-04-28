@@ -1,0 +1,22 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+JS_Objects,JavaScript IIFE,"How do you change a variable in the Global Object from within an IIFE IN THE BROWSER? Update the below code to give variable ""numero"" a value of 5, so it prints 5 to the console.<br/>
+*Remeber that it is possible only with var but not with let.
+<pre>var numero;
+
+(function(){
+  global.numero = 5;
+}());
+
+console.log(numero);</pre>","var numero;
+
+(function(global){
+  global.numero = 5;
+}(window));
+
+console.log(numero);","var numero;
+
+(function(){
+  global.numero = 5;
+}());
+
+console.log(numero);",8,code-type,Wrong,,https://www.udemy.com/course/understand-javascript/learn/lecture/2237542,,,,,

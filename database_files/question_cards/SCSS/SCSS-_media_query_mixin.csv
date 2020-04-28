@@ -1,0 +1,18 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+SCSS,Responsive,"Write the <b>mixin</b> for media query to use with devices of these screen viewports: <code>600px, 900px, 1200px and more than 1800px</code>. *Remember that we do not use rem for media queries, but <b>em</b> instead.","@mixin respond($breakpoint){
+	@if $breakpoint == phone{
+		@media (max-width: 37.5em){ @content };
+	}
+	
+	@if $breakpoint == tab-port{
+		@media (max-width: 56.25em){ @content };
+	}
+
+	@if $breakpoint == tab-land{
+		@media (max-width: 75em){ @content };
+	}
+
+	@if $breakpoint == big-desktop{
+		@media (min-width: 112.5em){ @content }
+	}
+}",,16,code-type,Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274548?start=1522,25:22,,,,,,,,,,,,

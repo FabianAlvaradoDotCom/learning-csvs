@@ -1,0 +1,14 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Basics,What are the main differences between the categories block-level and inline elements:,"Block-level:<br/>
+-They will appear on a new line from whatever content went before it, and any content that goes after it will also appear on a new line.<br/>
+-They wouldn't be nested inside an inline element, but it might be nested inside another block-level element.<br/><br/>
+Inline: <br/>
+-They will not cause a new line to appear in the document.<br/>
+-They are contained within block-level elements.","Block-level:
+-...
+-...
+
+Inline:
+-...
+-...
+",7,text-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started,,,,,,,

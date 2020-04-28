@@ -1,0 +1,8 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+ReactClassBased,LifeCycle,Please write the Component <b>Creation life cycle</b> hooks in their order.," 1. <b class=""magenta"">Constructor</b> - For basic initialization, you should not perform tasks that cause side effects.<br/><br/>
+2. <b class=""red"">static</b> <b class=""magenta"">getDerivedStateFromProps</b> - For synching state, you should not perform tasks that cause side effects. This gets executed when receiving props. Rarely used.<br/><br/>
+3. <b class=""magenta"">render</b> - The method that returns our JSX, for preparing and structuring our code, you should not perform tasks that cause side effects. *This lifecycle hook finishes only when all its children finish their life cycle hooks.<br/><br/>
+4. <b class=""magenta"">componentDidMount</b> - The most important life cycle hook, this gets called when the component finished creating. This component is ideal for executing Http requests or setTimeouts, or anything that causes side effects. *This triggers re-rendering.",,10,text-type,"1. 
+2. 
+3. 
+4. ",Wrong,,https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/13556264,,,,,,,,,,,,,

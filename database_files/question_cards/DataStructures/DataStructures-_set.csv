@@ -1,0 +1,12 @@
+﻿subject,question_topic,question,answer,comments,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+DataStructures,Stack,What is a <b>Set</b> structure?,"It is a pile of data elements which cannot have repeated elements, and items are not in a particular order. It is used just for checking the presence of an item.
+<br/>And the methods to manipulate it are:<br/>
+<code>has</code> returning if any given value exists,<br/>
+<code>values</code> that returns the entires collection,<br/>
+<code>add</code> to add an item that does not exist,<br/>
+<code>remove</code> an existing element,<br/>
+<code>size</code> to know the number if elements,<br/>
+<code>union</code> that combines 2 sets to create a new one,<br/>
+<code>intersection</code> that combines repeated elements of 2 sets and creates a new set,<br/>
+<code>difference</code> creates a news set with the elements of the first set that are not on the second set,<br/>
+and <code>subset</code>, that returns true if the first set exists completely on the second set.",,1,text-type,,,,https://youtu.be/t2CEgPsws3U?t=279,,,,,,,,,,,,,

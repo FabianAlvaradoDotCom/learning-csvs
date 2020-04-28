@@ -1,0 +1,23 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+SCSS,Floated,"What is the property for making that the element next to a floated one sorrounds it in a particular shape. Rememeber that it is necessary that the element is floated. Write an example for a circle (although it can be polygons or png images using the alpha channel). The circle shaped element should be 200px x 200px, green background, 50% border radious.<br/><pre>.circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: green;
+	float: left;
+	...
+}</pre>",".circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: green;
+	float: left;
+	shape-outside: circle(50% at 50% 50%);
+}",".circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: green;
+	float: left;
+	...
+}",7,code-type,Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274508?start=544,00:52,,,,,,,,,,,,

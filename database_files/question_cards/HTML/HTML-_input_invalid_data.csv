@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+HTML,Forms,What is the pseudo-class that an input element will automatically receive in case that incorrect data is entered?,:invalid,,3,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/HTML5_input_types,,,,,,,

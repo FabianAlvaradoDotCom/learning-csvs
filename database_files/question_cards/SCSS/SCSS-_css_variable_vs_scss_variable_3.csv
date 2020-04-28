@@ -1,0 +1,10 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+SCSS,Variables,"<b>*Remember that using a variable in a calculation needs to have the variable interpolated:</b> <code>#{$variable}</code><br/>
+Write the code to calculate the width of this element if we need it to be 100% minus the value of <b>$custom-margins</b>.
+<pre>#element{
+	width: ?
+}</pre>","#element{
+	width: calc(100% - #{$custom-margins});
+}","#element{
+	width: ?
+}",3,code-type,Wrong,,https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274486,19:35,,,,,,,,,,,,

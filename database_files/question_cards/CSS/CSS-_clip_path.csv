@@ -1,0 +1,2 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3
+CSS,CSS Basics,"Write the code to clip the current element, it should crop a triangle pointing to the right. Use percentage as unit.","clip-path: polygon(0 0, 100% 50%, 0 100%);",2,code-type,,Wrong,,,,,,,

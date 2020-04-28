@@ -1,0 +1,12 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4,reference_url5,reference_time5,reference_url6,reference_time6,reference_url7,reference_time7
+CSS,Responsive,"What is the property that makes a multicol layout to add a line  (that can be styled as any border) between columns? Write the code to give the below a separator line of 1px wide, solid and red color.
+<pre>.container {
+	column-width: 200px;
+	...
+}</pre>",".container {
+	column-width: 200px;
+	column-rule: 1px solid red;
+}",".container {
+	column-width: 200px;
+	...
+}",3,code-type,Wrong,,https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Multiple-column_Layout,,,,,,,,,,,,,

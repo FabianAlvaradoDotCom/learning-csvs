@@ -1,0 +1,4 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"Node",,"What would be the code so the console waits for input from the user using process.stdin method, and then prints it to the console?","process.stdin.on('data', function (data) {
+   process.stdout.write(data);
+});",4,"code-type",,"Wrong answer",,,,,,,

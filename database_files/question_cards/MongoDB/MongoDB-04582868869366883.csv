@@ -1,0 +1,2 @@
+"subject","question_topic","question","answer","rows","answer_type","place_holder","error_message","image_url","reference_url","reference_time","reference_url2","reference_time2","reference_url3","reference_time3"
+"MongoDB","Basics","Once the Mongo Demon is running, what comand should we execute to start a Mongo conection?","mongo",1,"code-type",,"Wrong answer",,,,,,,

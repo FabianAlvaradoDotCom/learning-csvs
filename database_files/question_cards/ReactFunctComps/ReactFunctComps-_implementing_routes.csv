@@ -1,0 +1,40 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Router,"Complete the below code with the missing statements so we have these 3 routes:<br/>
+<b>""/"" (HomePage)<br/>
+""/deposits"" (DepositsPage)<br/>
+""/balance"" (BalancePage)</b><br/>
+*Remember to include all necessary attributes, also an additional route for managing not having any slash or anything in the initial route, that will go to ""/"" <br/>
+<pre>function App() {
+	return (
+		&lt;BrowserRouter&gt;
+			&lt;div className=""App""&gt;
+				... // Routes here
+			&lt;/div&gt;
+		&lt;/BrowserRouter&gt;
+	);
+}
+
+export default App;</pre>","function App() {
+	return (
+		&lt;BrowserRouter&gt;
+			&lt;div className=""App""&gt;
+				&lt;Route path="""" exact render={() =&gt; {return &lt;Redirect to=""/"" /&gt; }}/&gt;
+				&lt;Route path=""/"" exact component={HomePage} /&gt;
+				&lt;Route path=""/deposits"" exact component={DepositsPage} /&gt;
+				&lt;Route path=""/balance"" exact component={BalancePage} /&gt;
+			&lt;/div&gt;
+		&lt;/BrowserRouter&gt;
+	);
+}
+
+export default App;",12,code-type,"function App() {
+	return (
+		<BrowserRouter>
+			<div className=""App"">
+				... // Routes here
+			</div>
+		</BrowserRouter>
+	);
+}
+
+export default App;",Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893560#overview,,,,,,,,,,,,,

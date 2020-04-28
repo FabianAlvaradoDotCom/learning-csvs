@@ -1,0 +1,15 @@
+﻿subject,question_topic,question,answer,place_holder,rows,answer_type,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,reference_url4,reference_time4
+JS_Functions,Callbacks,"Create a simple constant function ""parentFunction"" that:<br/><br/>
+* Use only arrow functions<br/>
+1. The parent function receives a callback (name the parameter ""callback"").<br/>
+2. The parent function saves in a let variable ""name"" with the value of ""John Doe"".<br/>
+3. The parent function as a final step executes the callback and passes the variable ""name"" to it as an argument.<br/>
+4. Invoke the parent function passing as an argument a function created on the fly that has a parameter ""name"".<br/>
+5. This function created on the fly has a single command, which is printing the parameter name to the console.","const parentFunction = (callback) => {
+  let name = ""John Doe"";
+  callback(name);
+}
+
+parentFunction( (name) => {
+  console.log(name);
+});",,10,code-type,Wrong,,https://www.udemy.com/course/understand-javascript/learn/lecture/2258228,,,,,,,

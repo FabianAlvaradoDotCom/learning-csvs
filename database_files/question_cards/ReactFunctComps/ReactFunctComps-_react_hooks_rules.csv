@@ -1,0 +1,6 @@
+﻿subject,question_topic,question,answer,rows,answer_type,place_holder,error_message,image_url,reference_url,reference_time,reference_url2,reference_time2,reference_url3,reference_time3,,,,,,,,
+ReactFunctComps,Hooks,"Mention the 2 most important hooks rules.<br/>
+1. <br/>
+2. ","1. Use hooks only at the top level of the function, not nested, not in a loop, etc.<br/>
+2. Call hooks only from a React function.",1,text-type,"1. 
+2. ",Wrong,,https://www.udemy.com/course/react-hooks-course/learn/lecture/14893434#overview,,,,,,,,,,,,,
